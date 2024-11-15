@@ -1,0 +1,135 @@
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -l
+total 0
+drwxr-xr-x. 3 abhiram abhiram 27 Nov 15 14:05 Desktop
+drwxr-xr-x. 3 abhiram abhiram 28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 98 Nov 15 13:55 Downloads
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 13:40 Pictures
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 13:40 Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd Documents
+[abhiram@localhost Documents]$ 
+[abhiram@localhost Documents]$ 
+[abhiram@localhost Documents]$ ls
+'Linux Centos 9'
+[abhiram@localhost Documents]$ 
+[abhiram@localhost Documents]$ 
+[abhiram@localhost Documents]$ ls -l
+total 0
+drwxr-xr-x. 3 abhiram abhiram 153 Nov 15 16:11 'Linux Centos 9'
+[abhiram@localhost Documents]$ 
+[abhiram@localhost Documents]$ 
+[abhiram@localhost Documents]$ ls -ltr
+total 0
+drwxr-xr-x. 3 abhiram abhiram 153 Nov 15 16:11 'Linux Centos 9'
+[abhiram@localhost Documents]$ 
+[abhiram@localhost Documents]$ 
+[abhiram@localhost Documents]$ cd Linux\ Centos\ 9/
+[abhiram@localhost Linux Centos 9]$ 
+[abhiram@localhost Linux Centos 9]$ 
+[abhiram@localhost Linux Centos 9]$ ls
+1.ifconfig.txt  3.hostname.txt     5.filesystem-structure-description.txt
+2.whoami.txt    4.file-system.txt
+[abhiram@localhost Linux Centos 9]$ 
+[abhiram@localhost Linux Centos 9]$ 
+[abhiram@localhost Linux Centos 9]$ ls -ltr
+total 24
+-rw-r--r--. 1 abhiram abhiram 1014 Nov 15 15:16 1.ifconfig.txt
+-rw-r--r--. 1 abhiram abhiram  158 Nov 15 15:59 2.whoami.txt
+-rw-r--r--. 1 abhiram abhiram  173 Nov 15 16:03 3.hostname.txt
+-rw-r--r--. 1 abhiram abhiram 1812 Nov 15 16:07 4.file-system.txt
+-rw-r--r--. 1 abhiram abhiram 5871 Nov 15 16:46 5.filesystem-structure-description.txt
+[abhiram@localhost Linux Centos 9]$ 
+[abhiram@localhost Linux Centos 9]$ 
+[abhiram@localhost Linux Centos 9]$ cd ..
+[abhiram@localhost Linux Centos 9]$ 
+[abhiram@localhost Linux Centos 9]$ 
+[abhiram@localhost Documents]$ cd ..
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 0
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 13:40 Videos
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 13:40 Pictures
+drwxr-xr-x. 2 abhiram abhiram 98 Nov 15 13:55 Downloads
+drwxr-xr-x. 3 abhiram abhiram 27 Nov 15 14:05 Desktop
+drwxr-xr-x. 3 abhiram abhiram 28 Nov 15 15:17 Documents
+[abhiram@localhost ~]$ cd Desktop
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ ls
+linux-centos9
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ ls -l
+total 4
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 15 14:05 linux-centos9
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ cd linux-centos9
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ ls
+10.absolute-and-relative-path  4.file-system
+11.creating-file-directory     5.file-system-structure-and-desc
+12.copy-directory              6.file-system-navigation
+1.ip-check                     7.file-directory-property
+2.user-name                    8.different-types-root
+3.host-name                    9.password-change
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ ls -ltr
+total 84
+-rw-r--r--. 1 abhiram abhiram   534 Nov 15 14:05 9.password-change
+-rw-r--r--. 1 abhiram abhiram   656 Nov 15 14:05 8.different-types-root
+-rw-r--r--. 1 abhiram abhiram  1545 Nov 15 14:05 7.file-directory-property
+-rw-r--r--. 1 abhiram abhiram  5994 Nov 15 14:05 6.file-system-navigation
+-rw-r--r--. 1 abhiram abhiram 23628 Nov 15 14:05 5.file-system-structure-and-desc
+-rw-r--r--. 1 abhiram abhiram  1200 Nov 15 14:05 4.file-system
+-rw-r--r--. 1 abhiram abhiram    37 Nov 15 14:05 3.host-name
+-rw-r--r--. 1 abhiram abhiram    22 Nov 15 14:05 2.user-name
+-rw-r--r--. 1 abhiram abhiram   905 Nov 15 14:05 1.ip-check
+-rw-r--r--. 1 abhiram abhiram  6469 Nov 15 14:05 12.copy-directory
+-rw-r--r--. 1 abhiram abhiram 11194 Nov 15 14:05 11.creating-file-directory
+-rw-r--r--. 1 abhiram abhiram   864 Nov 15 14:05 10.absolute-and-relative-path
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ pwd
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ cd ..
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ cd ..
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+
