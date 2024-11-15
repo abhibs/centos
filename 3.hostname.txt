@@ -1,0 +1,7 @@
+[abhiram@localhost ~]$ hostname
+localhost.localdomain
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
