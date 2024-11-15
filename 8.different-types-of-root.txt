@@ -1,0 +1,65 @@
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ su -
+Password: 
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# whoami
+root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# exit
+logout
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd /
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ pwd
+/
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ ls -l
+total 24
+dr-xr-xr-x.   2 root root    6 Jun 25 19:53 afs
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 bin -> usr/bin
+dr-xr-xr-x.   5 root root 4096 Nov 15 15:55 boot
+drwxr-xr-x.  20 root root 3320 Nov 15 15:54 dev
+drwxr-xr-x. 132 root root 8192 Nov 15 15:54 etc
+drwxr-xr-x.   3 root root   21 Nov 15 13:40 home
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 lib -> usr/lib
+lrwxrwxrwx.   1 root root    9 Jun 25 19:53 lib64 -> usr/lib64
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 media
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 mnt
+drwxr-xr-x.   3 root root   20 Nov 15 13:50 opt
+dr-xr-xr-x. 365 root root    0 Nov 15  2024 proc
+dr-xr-x---.   5 root root  175 Nov 15 18:27 root
+drwxr-xr-x.  45 root root 1180 Nov 15 15:54 run
+lrwxrwxrwx.   1 root root    8 Jun 25 19:53 sbin -> usr/sbin
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 srv
+dr-xr-xr-x.  13 root root    0 Nov 15  2024 sys
+drwxrwxrwt.  39 root root 4096 Nov 15 18:28 tmp
+drwxr-xr-x.  12 root root  144 Nov 15 13:22 usr
+drwxr-xr-x.  20 root root 4096 Nov 15 13:33 var
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ cd home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
