@@ -1,0 +1,154 @@
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd ..
+[abhiram@localhost home]$ 
+[abhiram@localhost home]$ 
+[abhiram@localhost home]$ 
+[abhiram@localhost home]$ pwd
+/home
+[abhiram@localhost home]$ 
+[abhiram@localhost home]$ 
+[abhiram@localhost home]$ cd ..
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ pwd
+/
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ ls
+afs  boot  etc   lib    media  opt   root  sbin  sys  usr
+bin  dev   home  lib64  mnt    proc  run   srv   tmp  var
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ cd boot
+[abhiram@localhost boot]$ 
+[abhiram@localhost boot]$ 
+[abhiram@localhost boot]$ pwd
+/boot
+[abhiram@localhost boot]$ 
+[abhiram@localhost boot]$ 
+[abhiram@localhost boot]$ ls
+config-5.14.0-522.el9.x86_64
+config-5.14.0-527.el9.x86_64
+efi
+grub2
+initramfs-0-rescue-24470afd67ee4371a1bf182a8bfb59fa.img
+initramfs-5.14.0-522.el9.x86_64.img
+initramfs-5.14.0-522.el9.x86_64kdump.img
+initramfs-5.14.0-527.el9.x86_64.img
+initramfs-5.14.0-527.el9.x86_64kdump.img
+loader
+symvers-5.14.0-522.el9.x86_64.gz
+symvers-5.14.0-527.el9.x86_64.gz
+System.map-5.14.0-522.el9.x86_64
+System.map-5.14.0-527.el9.x86_64
+vmlinuz-0-rescue-24470afd67ee4371a1bf182a8bfb59fa
+vmlinuz-5.14.0-522.el9.x86_64
+vmlinuz-5.14.0-527.el9.x86_64
+[abhiram@localhost boot]$ 
+[abhiram@localhost boot]$ 
+[abhiram@localhost boot]$ ls -l
+total 415660
+-rw-r--r--. 1 root root    226238 Oct 20 18:42 config-5.14.0-522.el9.x86_64
+-rw-r--r--. 1 root root    226521 Nov  6 19:06 config-5.14.0-527.el9.x86_64
+drwxr-xr-x. 3 root root        17 Nov 15 13:23 efi
+drwx------. 5 root root        97 Nov 15 16:00 grub2
+-rw-------. 1 root root 180390515 Nov 15 13:27 initramfs-0-rescue-24470afd67ee4371a1bf182a8bfb59fa.img
+-rw-------. 1 root root  56659261 Nov 15 13:46 initramfs-5.14.0-522.el9.x86_64.img
+-rw-------. 1 root root  34846208 Nov 15 13:47 initramfs-5.14.0-522.el9.x86_64kdump.img
+-rw-------. 1 root root  56672867 Nov 15 13:46 initramfs-5.14.0-527.el9.x86_64.img
+-rw-------. 1 root root  34862592 Nov 15 15:55 initramfs-5.14.0-527.el9.x86_64kdump.img
+drwxr-xr-x. 3 root root        21 Nov 15 13:25 loader
+lrwxrwxrwx. 1 root root        45 Nov 15 13:26 symvers-5.14.0-522.el9.x86_64.gz -> /lib/modules/5.14.0-522.el9.x86_64/symvers.gz
+lrwxrwxrwx. 1 root root        45 Nov 15 13:46 symvers-5.14.0-527.el9.x86_64.gz -> /lib/modules/5.14.0-527.el9.x86_64/symvers.gz
+-rw-------. 1 root root   8929241 Oct 20 18:42 System.map-5.14.0-522.el9.x86_64
+-rw-------. 1 root root   8986706 Nov  6 19:06 System.map-5.14.0-527.el9.x86_64
+-rwxr-xr-x. 1 root root  14571560 Nov 15 13:26 vmlinuz-0-rescue-24470afd67ee4371a1bf182a8bfb59fa
+-rwxr-xr-x. 1 root root  14571560 Oct 20 18:42 vmlinuz-5.14.0-522.el9.x86_64
+-rwxr-xr-x. 1 root root  14665768 Nov  6 19:06 vmlinuz-5.14.0-527.el9.x86_64
+[abhiram@localhost boot]$ 
+[abhiram@localhost boot]$ 
+[abhiram@localhost boot]$ 
+[abhiram@localhost boot]$ cd efi
+[abhiram@localhost efi]$ 
+[abhiram@localhost efi]$ 
+[abhiram@localhost efi]$ ls
+EFI
+[abhiram@localhost efi]$ 
+[abhiram@localhost efi]$ 
+[abhiram@localhost efi]$ ls -l
+total 0
+drwxr-xr-x. 3 root root 20 Nov 15 13:23 EFI
+[abhiram@localhost efi]$ 
+[abhiram@localhost efi]$ 
+[abhiram@localhost efi]$ cd /
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ ls -l
+total 24
+dr-xr-xr-x.   2 root root    6 Jun 25 19:53 afs
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 bin -> usr/bin
+dr-xr-xr-x.   5 root root 4096 Nov 15 15:55 boot
+drwxr-xr-x.  20 root root 3320 Nov 15 15:54 dev
+drwxr-xr-x. 132 root root 8192 Nov 15 15:54 etc
+drwxr-xr-x.   3 root root   21 Nov 15 13:40 home
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 lib -> usr/lib
+lrwxrwxrwx.   1 root root    9 Jun 25 19:53 lib64 -> usr/lib64
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 media
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 mnt
+drwxr-xr-x.   3 root root   20 Nov 15 13:50 opt
+dr-xr-xr-x. 357 root root    0 Nov 15  2024 proc
+dr-xr-x---.   5 root root  154 Nov 15 13:50 root
+drwxr-xr-x.  45 root root 1180 Nov 15 15:54 run
+lrwxrwxrwx.   1 root root    8 Jun 25 19:53 sbin -> usr/sbin
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 srv
+dr-xr-xr-x.  13 root root    0 Nov 15  2024 sys
+drwxrwxrwt.  39 root root 4096 Nov 15 16:40 tmp
+drwxr-xr-x.  12 root root  144 Nov 15 13:22 usr
+drwxr-xr-x.  20 root root 4096 Nov 15 13:33 var
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ cd var
+[abhiram@localhost var]$ 
+[abhiram@localhost var]$ 
+[abhiram@localhost var]$ pwd
+/var
+[abhiram@localhost var]$ 
+[abhiram@localhost var]$ 
+[abhiram@localhost var]$ 
+[abhiram@localhost var]$ ls
+account  cache  db     ftp    kerberos  local  log   nis  preserve  spool  yp
+adm      crash  empty  games  lib       lock   mail  opt  run       tmp
+[abhiram@localhost var]$ 
+[abhiram@localhost var]$ 
+[abhiram@localhost var]$ 
+[abhiram@localhost var]$ cd cache
+[abhiram@localhost cache]$ 
+[abhiram@localhost cache]$ 
+[abhiram@localhost cache]$ 
+[abhiram@localhost cache]$ ls
+app-info  cups  foomatic  ibus        ldconfig  man         private  swcatalog
+bpf       dnf   fwupd     krb5rcache  libX11    PackageKit  realmd
+[abhiram@localhost cache]$ 
+[abhiram@localhost cache]$ 
+[abhiram@localhost cache]$ 
+[abhiram@localhost cache]$ cd man
+[abhiram@localhost man]$ 
+[abhiram@localhost man]$ 
+[abhiram@localhost man]$ ls
+ca            cat2  cat5  cat8  da  fr  index.db  ko     pl     ru  sv  zh_CN
+CACHEDIR.TAG  cat3  cat6  cat9  de  hu  it        local  pt     sk  tr  zh_TW
+cat1          cat4  cat7  cs    es  id  ja        nl     pt_BR  sr  uk
+[abhiram@localhost man]$ 
+[abhiram@localhost man]$ 
+[abhiram@localhost man]$ 
+[abhiram@localhost man]$ cd /
+[abhiram@localhost /]$ pwd
+/
+[abhiram@localhost /]$ 
