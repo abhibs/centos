@@ -1,0 +1,153 @@
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd Desktop/
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ ls
+Abhiram      Ambika       anushree.txt   manu.txt     sarita.txt
+abhiram.txt  anju.txt     krishna.txt    Radhika      surabi.txt
+abhi.txt     anurada.txt  linux-centos9  Raghavendra  venkatesh.txt
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ cd Abhiram
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ touch a.txt b.txt c.txt
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ ls
+a.txt  b.txt  c.txt
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ ls -l
+total 0
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:35 a.txt
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:35 b.txt
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:35 c.txt
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ ls -ltr
+total 0
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:35 c.txt
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:35 b.txt
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:35 a.txt
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ cd ..
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ cp Abhiram /tmp/Abhiram-backup
+cp: -r not specified; omitting directory 'Abhiram'
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ cp -R Abhiram /tmp/Abhiram-backup
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ cd /
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ ls
+afs  boot  etc   lib    media  opt   root  sbin  sys  usr
+bin  dev   home  lib64  mnt    proc  run   srv   tmp  var
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ ls -ltr
+total 24
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 srv
+lrwxrwxrwx.   1 root root    8 Jun 25 19:53 sbin -> usr/sbin
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 mnt
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 media
+lrwxrwxrwx.   1 root root    9 Jun 25 19:53 lib64 -> usr/lib64
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 lib -> usr/lib
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 bin -> usr/bin
+dr-xr-xr-x.   2 root root    6 Jun 25 19:53 afs
+drwxr-xr-x.  12 root root  144 Nov 15 13:22 usr
+drwxr-xr-x.  20 root root 4096 Nov 15 13:33 var
+drwxr-xr-x.   3 root root   21 Nov 15 13:40 home
+drwxr-xr-x.   3 root root   20 Nov 15 13:50 opt
+dr-xr-xr-x.   5 root root 4096 Nov 15 15:55 boot
+dr-xr-x---.   5 root root  175 Nov 15 18:27 root
+dr-xr-xr-x. 359 root root    0 Nov 16 11:07 proc
+dr-xr-xr-x.  13 root root    0 Nov 16 11:09 sys
+drwxr-xr-x.  20 root root 3320 Nov 16 11:10 dev
+drwxr-xr-x.  44 root root 1160 Nov 16 11:14 run
+drwxr-xr-x. 132 root root 8192 Nov 16 12:41 etc
+drwxrwxrwt.  43 root root 4096 Nov 16 17:38 tmp
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ cd tmp
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ ls
+Abhiram-backup
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-chronyd.service-KGJt3U
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-colord.service-rtYFv8
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-dbus-broker.service-jSdL0D
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-fwupd.service-rG82g2
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-irqbalance.service-IR6WqP
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-kdump.service-0xtMCf
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-ModemManager.service-8B9ni3
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-power-profiles-daemon.service-QjVCrb
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-rtkit-daemon.service-c1zthH
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-switcheroo-control.service-6Hr85m
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-systemd-logind.service-q22t96
+systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-upower.service-OkZheX
+vscode-typescript1000
+[abhiram@localhost tmp]$ ls -l
+total 0
+drwxr-xr-x. 2 abhiram abhiram 45 Nov 16 17:38 Abhiram-backup
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-chronyd.service-KGJt3U
+drwx------. 3 root    root    17 Nov 16 11:11 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-colord.service-rtYFv8
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-dbus-broker.service-jSdL0D
+drwx------. 3 root    root    17 Nov 16 11:13 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-fwupd.service-rG82g2
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-irqbalance.service-IR6WqP
+drwx------. 3 root    root    17 Nov 16 11:11 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-kdump.service-0xtMCf
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-ModemManager.service-8B9ni3
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-power-profiles-daemon.service-QjVCrb
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-rtkit-daemon.service-c1zthH
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-switcheroo-control.service-6Hr85m
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-systemd-logind.service-q22t96
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-upower.service-OkZheX
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 15:17 vscode-typescript1000
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ ls -ltr
+total 0
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 15:17 vscode-typescript1000
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-dbus-broker.service-jSdL0D
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-chronyd.service-KGJt3U
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-irqbalance.service-IR6WqP
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-rtkit-daemon.service-c1zthH
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-power-profiles-daemon.service-QjVCrb
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-switcheroo-control.service-6Hr85m
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-systemd-logind.service-q22t96
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-upower.service-OkZheX
+drwx------. 3 root    root    17 Nov 16 11:10 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-ModemManager.service-8B9ni3
+drwx------. 3 root    root    17 Nov 16 11:11 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-kdump.service-0xtMCf
+drwx------. 3 root    root    17 Nov 16 11:11 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-colord.service-rtYFv8
+drwx------. 3 root    root    17 Nov 16 11:13 systemd-private-9d4d2dc1ad4641338b56eac2b6ff6e54-fwupd.service-rG82g2
+drwxr-xr-x. 2 abhiram abhiram 45 Nov 16 17:38 Abhiram-backup
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ cd Abhiram-backup
+[abhiram@localhost Abhiram-backup]$ 
+[abhiram@localhost Abhiram-backup]$ 
+[abhiram@localhost Abhiram-backup]$ ls
+a.txt  b.txt  c.txt
+[abhiram@localhost Abhiram-backup]$ 
+[abhiram@localhost Abhiram-backup]$ 
+[abhiram@localhost Abhiram-backup]$ ls -ltr
+total 0
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:38 c.txt
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:38 b.txt
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:38 a.txt
+[abhiram@localhost Abhiram-backup]$ 
+[abhiram@localhost Abhiram-backup]$ 
+[abhiram@localhost Abhiram-backup]$
