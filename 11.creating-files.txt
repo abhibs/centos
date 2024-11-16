@@ -1,0 +1,48 @@
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd Desktop
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ touch abhi.txt
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ ls
+abhiram.txt  abhi.txt  linux-centos9
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ ls -l
+total 8
+-rw-r--r--. 1 abhiram abhiram   65 Nov 15 17:58 abhiram.txt
+-rw-r--r--. 1 abhiram abhiram    0 Nov 16 15:58 abhi.txt
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 15 14:05 linux-centos9
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ ls -ltr
+total 8
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 15 14:05 linux-centos9
+-rw-r--r--. 1 abhiram abhiram   65 Nov 15 17:58 abhiram.txt
+-rw-r--r--. 1 abhiram abhiram    0 Nov 16 15:58 abhi.txt
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ vi abhi.txt
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ cat abhi.txt
+Abhiram
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$
