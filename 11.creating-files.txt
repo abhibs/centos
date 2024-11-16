@@ -162,3 +162,51 @@ drwxr-xr-x. 3 abhiram abhiram 4096 Nov 15 14:05 linux-centos9
 [abhiram@localhost Desktop]$ 
 [abhiram@localhost Desktop]$ 
 [abhiram@localhost Desktop]$
+[abhiram@localhost Desktop]$ cd ..
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ cd ..
+[abhiram@localhost home]$ 
+[abhiram@localhost home]$ 
+[abhiram@localhost home]$ cd ..
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ ls
+afs  boot  etc   lib    media  opt   root  sbin  sys  usr
+bin  dev   home  lib64  mnt    proc  run   srv   tmp  var
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ ls -l
+total 24
+dr-xr-xr-x.   2 root root    6 Jun 25 19:53 afs
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 bin -> usr/bin
+dr-xr-xr-x.   5 root root 4096 Nov 15 15:55 boot
+drwxr-xr-x.  20 root root 3320 Nov 16 11:10 dev
+drwxr-xr-x. 132 root root 8192 Nov 16 12:41 etc
+drwxr-xr-x.   3 root root   21 Nov 15 13:40 home
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 lib -> usr/lib
+lrwxrwxrwx.   1 root root    9 Jun 25 19:53 lib64 -> usr/lib64
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 media
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 mnt
+drwxr-xr-x.   3 root root   20 Nov 15 13:50 opt
+dr-xr-xr-x. 359 root root    0 Nov 16 11:07 proc
+dr-xr-x---.   5 root root  175 Nov 15 18:27 root
+drwxr-xr-x.  44 root root 1160 Nov 16 11:14 run
+lrwxrwxrwx.   1 root root    8 Jun 25 19:53 sbin -> usr/sbin
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 srv
+dr-xr-xr-x.  13 root root    0 Nov 16 11:09 sys
+drwxrwxrwt.  42 root root 4096 Nov 16 16:45 tmp
+drwxr-xr-x.  12 root root  144 Nov 15 13:22 usr
+drwxr-xr-x.  20 root root 4096 Nov 15 13:33 var
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ 
+[abhiram@localhost /]$ cd etc
+[abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ touch abhiram.txt
+touch: cannot touch 'abhiram.txt': Permission denied
+[abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ 
