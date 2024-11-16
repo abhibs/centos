@@ -1,0 +1,42 @@
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd Desktop
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ ls
+Abhiram      Ambika       anushree.txt   manu.txt     sarita.txt
+abhiram.txt  anju.txt     krishna.txt    Radhika      surabi.txt
+abhi.txt     anurada.txt  linux-centos9  Raghavendra  venkatesh.txt
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ cd Abhiram
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ ls -l
+total 0
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:35 a.txt
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:35 b.txt
+-rw-r--r--. 1 abhiram abhiram 0 Nov 16 17:35 c.txt
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ cd ..
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ cd ..
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ find . -name "a.txt"
+./Desktop/Abhiram/a.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ find . -name "Abhiram"
+./Desktop/Abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
