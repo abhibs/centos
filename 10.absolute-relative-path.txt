@@ -1,0 +1,37 @@
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd Desktop/linux-centos9
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ pwd
+/home/abhiram/Desktop/linux-centos9
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ cd ..
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ cd ..
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd Desktop
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ cd linux-centos9
+[abhiram@localhost linux-centos9]$ 
+
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ pwd
+/home/abhiram/Desktop/linux-centos9
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ 
+[abhiram@localhost linux-centos9]$ 
