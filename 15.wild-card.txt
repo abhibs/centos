@@ -169,3 +169,48 @@ drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ touch abcd{1..5}-xyz
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ touch zbcd{1..5}-xyz
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 16
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 3 abhiram abhiram  187 Nov 16 15:52 Downloads
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+-rw-r--r--. 1 abhiram abhiram    0 Nov 18 12:45 abcd3-xyz
+-rw-r--r--. 1 abhiram abhiram    0 Nov 18 12:45 abcd2-xyz
+-rw-r--r--. 1 abhiram abhiram    0 Nov 18 12:45 abcd1-xyz
+-rw-r--r--. 1 abhiram abhiram    0 Nov 18 12:45 abcd5-xyz
+-rw-r--r--. 1 abhiram abhiram    0 Nov 18 12:45 abcd4-xyz
+-rw-r--r--. 1 abhiram abhiram    0 Nov 18 12:45 zbcd1-xyz
+-rw-r--r--. 1 abhiram abhiram    0 Nov 18 12:45 zbcd2-xyz
+-rw-r--r--. 1 abhiram abhiram    0 Nov 18 12:45 zbcd5-xyz
+-rw-r--r--. 1 abhiram abhiram    0 Nov 18 12:45 zbcd4-xyz
+-rw-r--r--. 1 abhiram abhiram    0 Nov 18 12:45 zbcd3-xyz
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ rm ?bcd*
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 16
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 3 abhiram abhiram  187 Nov 16 15:52 Downloads
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
