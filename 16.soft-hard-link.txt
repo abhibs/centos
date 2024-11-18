@@ -320,3 +320,59 @@ Thirthahalli
 [abhiram@localhost Abhiram]$ 
 [abhiram@localhost Abhiram]$ 
 [abhiram@localhost Abhiram]$
+[abhiram@localhost Abhiram]$ cd ..
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltri
+total 20
+ 33554563 drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+ 67240068 drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+      140 drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+ 67240069 drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+100663429 drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+ 33554564 drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+      139 drwxr-xr-x. 3 abhiram abhiram  187 Nov 16 15:52 Downloads
+100663428 drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+    25551 -rw-r--r--. 2 abhiram abhiram   40 Nov 18 14:59 abhiram.txt
+ 67252510 drwxr-xr-x. 2 abhiram abhiram   25 Nov 18 15:05 Abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhiram.txt
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ rm abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 16
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 3 abhiram abhiram  187 Nov 16 15:52 Downloads
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 2 abhiram abhiram   25 Nov 18 15:05 Abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd Abhiram
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ ls -ltri
+total 4
+25551 -rw-r--r--. 1 abhiram abhiram 40 Nov 18 14:59 abhiram.txt
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ cat abhiram.txt
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$
