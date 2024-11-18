@@ -51,3 +51,18 @@ mlocate-0.26-30.el9.x86_64
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd Desktop
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ touch srinivasamurthy.txt
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ locate srinivasamurthy.txt
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$ 
+[abhiram@localhost Desktop]$
