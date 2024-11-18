@@ -138,3 +138,28 @@ cat: abhiram.txt: Permission denied
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ chmod u+x abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -l abhiram.txt
+-rwxrw-rw-. 1 abhiram abhiram 67 Nov 18 16:54 abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ chmod g+x abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -l abhiram.txt
+-rwxrwxrw-. 1 abhiram abhiram 67 Nov 18 16:54 abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ chmod o+x abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -l abhiram.txt
+-rwxrwxrwx. 1 abhiram abhiram 67 Nov 18 16:54 abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
