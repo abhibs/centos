@@ -94,3 +94,17 @@ drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$
+[abhiram@localhost ~]$ ls -l abcd*
+-rw-r--r--. 1 abhiram abhiram 0 Nov 18 12:14 abcd1-xyz
+-rw-r--r--. 1 abhiram abhiram 0 Nov 18 12:14 abcd2-xyz
+-rw-r--r--. 1 abhiram abhiram 0 Nov 18 12:14 abcd3-xyz
+-rw-r--r--. 1 abhiram abhiram 0 Nov 18 12:14 abcd4-xyz
+-rw-r--r--. 1 abhiram abhiram 0 Nov 18 12:14 abcd5-xyz
+-rw-r--r--. 1 abhiram abhiram 0 Nov 18 12:14 abcd6-xyz
+-rw-r--r--. 1 abhiram abhiram 0 Nov 18 12:14 abcd7-xyz
+-rw-r--r--. 1 abhiram abhiram 0 Nov 18 12:14 abcd8-xyz
+-rw-r--r--. 1 abhiram abhiram 0 Nov 18 12:14 abcd9-xyz
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
