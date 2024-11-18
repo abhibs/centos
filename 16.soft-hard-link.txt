@@ -1,0 +1,79 @@
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 16
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 3 abhiram abhiram  187 Nov 16 15:52 Downloads
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ touch abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 16
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 3 abhiram abhiram  187 Nov 16 15:52 Downloads
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+-rw-r--r--. 1 abhiram abhiram    0 Nov 18 14:04 abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ echo "Abhiram B S Javalli Tudoor Thirthahalli Shimoga Karnataka 577226" > abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhiram.txt
+Abhiram B S Javalli Tudoor Thirthahalli Shimoga Karnataka 577226
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd /tmp
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ pwd
+/tmp
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ ln -s /home/abhiram/abhiram.txt
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ ls -ltr
+total 0
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 15:17 vscode-typescript1000
+drwxr-xr-x. 2 abhiram abhiram 45 Nov 16 17:38 Abhiram-backup
+drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-dbus-broker.service-MLbWlH
+drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-chronyd.service-aoaIPa
+drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-irqbalance.service-CoH2Oq
+drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-power-profiles-daemon.service-y403t2
+drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-rtkit-daemon.service-sVdWL9
+drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-switcheroo-control.service-eQh1Yg
+drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-systemd-logind.service-InhKii
+drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-upower.service-ovzxbd
+drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-ModemManager.service-Z16seJ
+drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-kdump.service-MFL1Ou
+drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-colord.service-9u6F7g
+drwx------. 3 root    root    17 Nov 18 11:08 systemd-private-6244d71dda4b41c5beeafe36754a8630-fwupd.service-m5fLX6
+lrwxrwxrwx. 1 abhiram abhiram 25 Nov 18 14:07 abhiram.txt -> /home/abhiram/abhiram.txt
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ cat abhiram.txt
+Abhiram B S Javalli Tudoor Thirthahalli Shimoga Karnataka 577226
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
