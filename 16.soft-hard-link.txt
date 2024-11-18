@@ -77,3 +77,42 @@ Abhiram B S Javalli Tudoor Thirthahalli Shimoga Karnataka 577226
 [abhiram@localhost tmp]$ 
 [abhiram@localhost tmp]$ 
 [abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ cd /home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltri
+total 20
+ 33554563 drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+ 67240068 drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+      140 drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+ 67240069 drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+100663429 drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+ 33554564 drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+      139 drwxr-xr-x. 3 abhiram abhiram  187 Nov 16 15:52 Downloads
+100663428 drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+    70915 -rw-r--r--. 1 abhiram abhiram   65 Nov 18 14:05 abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd /tmp
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ ls -ltri
+total 0
+202655851 drwxr-xr-x. 2 abhiram abhiram  6 Nov 15 15:17 vscode-typescript1000
+135069978 drwxr-xr-x. 2 abhiram abhiram 45 Nov 16 17:38 Abhiram-backup
+  1568008 drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-dbus-broker.service-MLbWlH
+134690055 drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-chronyd.service-aoaIPa
+134690247 drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-irqbalance.service-CoH2Oq
+134951972 drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-power-profiles-daemon.service-y403t2
+135013282 drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-rtkit-daemon.service-sVdWL9
+  1568025 drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-switcheroo-control.service-eQh1Yg
+  1568026 drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-systemd-logind.service-InhKii
+  1568027 drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-upower.service-ovzxbd
+  1568028 drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-ModemManager.service-Z16seJ
+  1568035 drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-kdump.service-MFL1Ou
+135069969 drwx------. 3 root    root    17 Nov 18 11:07 systemd-private-6244d71dda4b41c5beeafe36754a8630-colord.service-9u6F7g
+135069968 drwx------. 3 root    root    17 Nov 18 11:08 systemd-private-6244d71dda4b41c5beeafe36754a8630-fwupd.service-m5fLX6
+135069960 lrwxrwxrwx. 1 abhiram abhiram 25 Nov 18 14:07 abhiram.txt -> /home/abhiram/abhiram.txt
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
