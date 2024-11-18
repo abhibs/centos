@@ -1,0 +1,80 @@
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls
+Abhiram  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -l
+total 16
+drwxr-xr-x. 2 abhiram abhiram   25 Nov 18 15:05 Abhiram
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 3 abhiram abhiram  187 Nov 16 15:52 Downloads
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -lt
+total 16
+drwxr-xr-x. 2 abhiram abhiram   25 Nov 18 15:05 Abhiram
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram  187 Nov 16 15:52 Downloads
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 16
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 3 abhiram abhiram  187 Nov 16 15:52 Downloads
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 2 abhiram abhiram   25 Nov 18 15:05 Abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -l Abhiram
+total 4
+-rw-r--r--. 1 abhiram abhiram 40 Nov 18 14:59 abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ rm -f Abhiram
+rm: cannot remove 'Abhiram': Is a directory
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ rm -R Abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 16
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 3 abhiram abhiram  187 Nov 16 15:52 Downloads
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
