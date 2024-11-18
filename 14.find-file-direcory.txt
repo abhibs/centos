@@ -66,3 +66,15 @@ Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 [abhiram@localhost Desktop]$ 
 [abhiram@localhost Desktop]$ 
 [abhiram@localhost Desktop]$
+[abhiram@localhost Desktop]$ cd ..
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ sudo updatedb
+[sudo] password for abhiram: 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ locate srinivasamurthy.txt
+/home/abhiram/Desktop/srinivasamurthy.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
