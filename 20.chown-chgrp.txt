@@ -177,3 +177,12 @@ drwxrwxrwx. 2 abhiram abhiram   45 Nov 19 11:39 Abhi
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd /etc
+[abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ touch abhiram.txt
+touch: cannot touch 'abhiram.txt': Permission denied
+[abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ 
