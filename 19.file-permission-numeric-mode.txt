@@ -128,3 +128,7 @@ drwxrwxrwx. 2 abhiram abhiram    6 Nov 18 17:54 Abhiram
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ mkdir Abhi
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
