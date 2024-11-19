@@ -100,3 +100,12 @@ drwxrwxrwx. 2 abhiram abhiram    6 Nov 18 17:54 Abhiram
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ chmod 777 abhi.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -l abhi.txt
+-rwxrwxrwx. 1 abhiram abhiram 65 Nov 19 11:04 abhi.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$
