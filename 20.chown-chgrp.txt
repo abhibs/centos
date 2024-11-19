@@ -200,3 +200,19 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# ls
+anaconda-ks.cfg
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# cd /etc
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# touch abhiram.txt
+[root@localhost etc]# 
+[root@localhost etc]#
+[root@localhost etc]#
+[root@localhost etc]# ls -l abhiram.txt
+-rw-r--r--. 1 root root 0 Nov 19 14:03 abhiram.txt
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]#   
