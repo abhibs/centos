@@ -216,3 +216,8 @@ anaconda-ks.cfg
 [root@localhost etc]# 
 [root@localhost etc]# 
 [root@localhost etc]#   
+[root@localhost etc]# exit
+logout
+[abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ 
