@@ -123,3 +123,9 @@ drwxrwxrwx. 2 abhiram abhiram   45 Nov 19 11:39 Abhi
 [root@localhost abhiram]# 
 [root@localhost abhiram]# 
 [root@localhost abhiram]#
+[root@localhost abhiram]# exit
+logout
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
