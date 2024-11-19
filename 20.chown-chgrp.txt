@@ -56,3 +56,49 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# ls
+anaconda-ks.cfg
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# cd /home/abhiram
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# ls -ltr
+total 32
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 18 16:15 Downloads
+-rwxrwxrwx. 1 abhiram abhiram   67 Nov 18 16:54 abhiram.txt
+drwxrwxrwx. 2 abhiram abhiram    6 Nov 18 17:54 Abhiram
+-rwxrw-r-x. 1 abhiram abhiram   65 Nov 19 11:04 abhi.txt
+drwxrwxrwx. 2 abhiram abhiram   45 Nov 19 11:39 Abhi
+-rw-r--r--. 1 abhiram abhiram   66 Nov 19 12:15 permission.txt
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# chown root permission.txt
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# ls -ltr
+total 32
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 18 16:15 Downloads
+-rwxrwxrwx. 1 abhiram abhiram   67 Nov 18 16:54 abhiram.txt
+drwxrwxrwx. 2 abhiram abhiram    6 Nov 18 17:54 Abhiram
+-rwxrw-r-x. 1 abhiram abhiram   65 Nov 19 11:04 abhi.txt
+drwxrwxrwx. 2 abhiram abhiram   45 Nov 19 11:39 Abhi
+-rw-r--r--. 1 root    abhiram   66 Nov 19 12:15 permission.txt
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
