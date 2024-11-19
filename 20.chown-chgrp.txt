@@ -186,3 +186,17 @@ touch: cannot touch 'abhiram.txt': Permission denied
 [abhiram@localhost etc]$ 
 [abhiram@localhost etc]$ 
 [abhiram@localhost etc]$ 
+[abhiram@localhost etc]$ su -
+Password: 
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# whoami
+root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
