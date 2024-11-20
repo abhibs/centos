@@ -150,3 +150,8 @@ other::r--
 [root@localhost tmp]# 
 [root@localhost tmp]# 
 [root@localhost tmp]# 
+[root@localhost tmp]# exit
+logout
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
