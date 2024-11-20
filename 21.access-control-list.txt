@@ -42,3 +42,19 @@ other::r--
 [root@localhost tmp]# 
 [root@localhost tmp]# 
 [root@localhost tmp]# 
+[root@localhost tmp]# setfacl -m u:abhiram:rw /tmp/abhiram.txt
+[root@localhost tmp]# 
+[root@localhost tmp]# 
+[root@localhost tmp]# getfacl abhiram.txt
+# file: abhiram.txt
+# owner: root
+# group: root
+user::rw-
+user:abhiram:rw-
+group::r--
+mask::rw-
+other::r--
+
+[root@localhost tmp]# 
+[root@localhost tmp]# 
+[root@localhost tmp]#
