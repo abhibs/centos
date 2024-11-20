@@ -63,3 +63,28 @@ logout
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd /tmp
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ vi abhiram.txt
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ cat abhiram.txt
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+Karnataka
+577226
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
