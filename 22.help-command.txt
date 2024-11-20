@@ -1,0 +1,6 @@
+[abhiram@localhost ~]$ whatis ls
+ls (1)               - list directory contents
+ls (1p)              - list directory contents
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
