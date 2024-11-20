@@ -70,3 +70,53 @@ Abhiram
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ echo "Javalli" >> abhi.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhi.txt
+Abhiram
+Javalli
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ echo "Tudoor" >> abhi.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhi.txt
+Abhiram
+Javalli
+Tudoor
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ echo "Thirthahalli" >> abhi.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhi.txt
+Abhiram
+Javalli
+Tudoor
+Thirthahalli
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ echo "Shimoga" >> abhi.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhi.txt
+Abhiram
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+[abhiram@localhost ~]$ echo "577226" >> abhi.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhi.txt
+Abhiram
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+577226
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
