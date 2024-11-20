@@ -158,3 +158,14 @@ drwxrwxrwx. 2 abhiram abhiram   45 Nov 19 11:39 Abhi
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ date > current-date.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat current-date.txt 
+Wednesday 20 November 2024 03:52:29 PM IST
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -l  current-date.txt
+-rw-r--r--. 1 abhiram abhiram 43 Nov 20 15:52 current-date.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
