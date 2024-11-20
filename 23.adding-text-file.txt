@@ -1,0 +1,14 @@
+[abhiram@localhost ~]$ vi abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhiram.txt
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+577226
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
