@@ -19,3 +19,15 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# cd /tmp
+[root@localhost tmp]# 
+[root@localhost tmp]# 
+[root@localhost tmp]# touch abhiram.txt
+[root@localhost tmp]# 
+[root@localhost tmp]# 
+[root@localhost tmp]# 
+[root@localhost tmp]# ls -l abhiram.txt
+-rw-r--r--. 1 root root 0 Nov 20 11:26 abhiram.txt
+[root@localhost tmp]# 
+[root@localhost tmp]# 
+[root@localhost tmp]# 
