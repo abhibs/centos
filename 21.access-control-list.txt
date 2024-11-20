@@ -110,3 +110,27 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# cd /tmp
+[root@localhost tmp]# 
+[root@localhost tmp]# 
+[root@localhost tmp]# pwd
+/tmp
+[root@localhost tmp]# 
+[root@localhost tmp]# 
+[root@localhost tmp]# setfacl -m g:abhiram:rw abhiram.txt
+[root@localhost tmp]# 
+[root@localhost tmp]# 
+[root@localhost tmp]# getfacl abhiram.txt
+# file: abhiram.txt
+# owner: root
+# group: root
+user::rw-
+user:abhiram:rw-
+group::r--
+group:abhiram:rw-
+mask::rw-
+other::r--
+
+[root@localhost tmp]# 
+[root@localhost tmp]# 
+[root@localhost tmp]# 
