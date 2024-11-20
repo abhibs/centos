@@ -31,3 +31,14 @@ root
 [root@localhost tmp]# 
 [root@localhost tmp]# 
 [root@localhost tmp]# 
+[root@localhost tmp]# getfacl abhiram.txt
+# file: abhiram.txt
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+[root@localhost tmp]# 
+[root@localhost tmp]# 
+[root@localhost tmp]# 
