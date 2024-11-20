@@ -41,3 +41,32 @@ drwxrwxrwx. 2 abhiram abhiram   45 Nov 19 11:39 Abhi
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 28
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 18 16:15 Downloads
+drwxrwxrwx. 2 abhiram abhiram    6 Nov 18 17:54 Abhiram
+drwxrwxrwx. 2 abhiram abhiram   45 Nov 19 11:39 Abhi
+-rw-r--r--. 1 abhiram abhiram   55 Nov 20 15:07 abhiram.txt
+-rw-r--r--. 1 abhiram abhiram   12 Nov 20 15:20 abhi.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhi.txt
+Abhiram B S
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ echo "Abhiram" > abhi.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhi.txt
+Abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
