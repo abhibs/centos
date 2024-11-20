@@ -220,3 +220,9 @@ Press ENTER or type command to continue
 [abhiram@localhost tmp]$ 
 [abhiram@localhost tmp]$ 
 [abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ rm abhiram.txt
+rm: remove write-protected regular file 'abhiram.txt'? 
+rm: cannot remove 'abhiram.txt': Operation not permitted
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
