@@ -31,3 +31,13 @@ Abhiram B S Javalli Tudoor Thirthahalli Shimoga
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ echo "Karnataka 577226 India" | tee -a abhi.txt
+Karnataka 577226 India
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhi.txt
+Abhiram B S Javalli Tudoor Thirthahalli Shimoga
+Karnataka 577226 India
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
