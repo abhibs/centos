@@ -237,3 +237,29 @@ ls: cannot open directory '/root': Permission denied
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$
+[abhiram@localhost ~]$ ls -l /root 2> errorfile.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat errorfile.txt
+ls: cannot open directory '/root': Permission denied
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 36
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 18 16:15 Downloads
+-rw-r--r--. 1 abhiram abhiram   51 Nov 21 11:53 abhiram.txt
+-rw-r--r--. 1 abhiram abhiram 3558 Nov 21 12:03 listofdirectory.txt
+-rw-r--r--. 1 abhiram abhiram   26 Nov 21 12:12 findpath.txt
+-rw-r--r--. 1 abhiram abhiram    0 Nov 21 12:29 errormgs.txt
+-rw-r--r--. 1 abhiram abhiram   53 Nov 21 12:32 errorfile.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
