@@ -111,3 +111,74 @@ drwxr-xr-x. 3 abhiram abhiram 4096 Nov 18 16:15 Downloads
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -la >> listofdirectory.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat listofdirectory.txt
+total 24
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 3 abhiram abhiram   28 Nov 15 15:17 Documents
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 18 16:15 Downloads
+-rw-r--r--. 1 abhiram abhiram   51 Nov 21 11:53 abhiram.txt
+-rw-r--r--. 1 abhiram abhiram    0 Nov 21 11:58 listofdirectory.txt
+total 88
+-rw-r--r--.  1 abhiram abhiram   492 Feb 15  2024 .bashrc
+-rw-r--r--.  1 abhiram abhiram   141 Feb 15  2024 .bash_profile
+-rw-r--r--.  1 abhiram abhiram    18 Feb 15  2024 .bash_logout
+drwxr-xr-x.  3 root    root       21 Nov 15 13:40 ..
+drwxr-xr-x.  2 abhiram abhiram     6 Nov 15 13:40 Templates
+drwxr-xr-x.  2 abhiram abhiram     6 Nov 15 13:40 Public
+drwxr-xr-x.  2 abhiram abhiram     6 Nov 15 13:40 Music
+drwxr-xr-x.  2 abhiram abhiram     6 Nov 15 13:40 Videos
+drwx------.  4 abhiram abhiram    32 Nov 15 13:40 .local
+drwxr-xr-x.  5 abhiram abhiram    54 Nov 15 13:42 .mozilla
+drwx------.  3 abhiram abhiram    19 Nov 15 13:51 .pki
+drwxr-xr-x.  4 abhiram abhiram    52 Nov 15 14:00 .vscode
+-rw-r--r--.  1 abhiram abhiram    84 Nov 15 14:10 .gitconfig
+drwxr-xr-x.  3 abhiram abhiram    28 Nov 15 15:17 Documents
+drwxr-xr-x.  2 abhiram abhiram  8192 Nov 15 19:18 Pictures
+drwxr-xr-x.  7 abhiram abhiram  4096 Nov 18 10:43 Desktop
+drwxr-xr-x.  3 abhiram abhiram  4096 Nov 18 16:15 Downloads
+drwxr-xr-x. 17 abhiram abhiram  4096 Nov 18 16:16 .config
+drwx------. 17 abhiram abhiram  4096 Nov 18 16:16 .cache
+-rw-------.  1 abhiram abhiram    20 Nov 20 14:34 .lesshst
+-rw-------.  1 abhiram abhiram  8632 Nov 20 15:07 .viminfo
+-rw-------.  1 abhiram abhiram 13635 Nov 20 16:04 .bash_history
+-rw-r--r--.  1 abhiram abhiram    51 Nov 21 11:53 abhiram.txt
+drwx------. 16 abhiram abhiram  4096 Nov 21 11:55 .
+-rw-r--r--.  1 abhiram abhiram   588 Nov 21 11:58 listofdirectory.txt
+total 88
+drwx------. 16 abhiram abhiram  4096 Nov 21 11:55 .
+drwxr-xr-x.  3 root    root       21 Nov 15 13:40 ..
+-rw-r--r--.  1 abhiram abhiram    51 Nov 21 11:53 abhiram.txt
+-rw-------.  1 abhiram abhiram 13635 Nov 20 16:04 .bash_history
+-rw-r--r--.  1 abhiram abhiram    18 Feb 15  2024 .bash_logout
+-rw-r--r--.  1 abhiram abhiram   141 Feb 15  2024 .bash_profile
+-rw-r--r--.  1 abhiram abhiram   492 Feb 15  2024 .bashrc
+drwx------. 17 abhiram abhiram  4096 Nov 18 16:16 .cache
+drwxr-xr-x. 17 abhiram abhiram  4096 Nov 18 16:16 .config
+drwxr-xr-x.  7 abhiram abhiram  4096 Nov 18 10:43 Desktop
+drwxr-xr-x.  3 abhiram abhiram    28 Nov 15 15:17 Documents
+drwxr-xr-x.  3 abhiram abhiram  4096 Nov 18 16:15 Downloads
+-rw-r--r--.  1 abhiram abhiram    84 Nov 15 14:10 .gitconfig
+-rw-------.  1 abhiram abhiram    20 Nov 20 14:34 .lesshst
+-rw-r--r--.  1 abhiram abhiram  2073 Nov 21 12:01 listofdirectory.txt
+drwx------.  4 abhiram abhiram    32 Nov 15 13:40 .local
+drwxr-xr-x.  5 abhiram abhiram    54 Nov 15 13:42 .mozilla
+drwxr-xr-x.  2 abhiram abhiram     6 Nov 15 13:40 Music
+drwxr-xr-x.  2 abhiram abhiram  8192 Nov 15 19:18 Pictures
+drwx------.  3 abhiram abhiram    19 Nov 15 13:51 .pki
+drwxr-xr-x.  2 abhiram abhiram     6 Nov 15 13:40 Public
+drwxr-xr-x.  2 abhiram abhiram     6 Nov 15 13:40 Templates
+drwxr-xr-x.  2 abhiram abhiram     6 Nov 15 13:40 Videos
+-rw-------.  1 abhiram abhiram  8632 Nov 20 15:07 .viminfo
+drwxr-xr-x.  4 abhiram abhiram    52 Nov 15 14:00 .vscode
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
