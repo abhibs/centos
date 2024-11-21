@@ -76,3 +76,20 @@ Shimoga
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls > listofdirectory.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat listofdirectory.txt
+abhiram.txt
+Desktop
+Documents
+Downloads
+listofdirectory.txt
+Music
+Pictures
+Public
+Templates
+Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
