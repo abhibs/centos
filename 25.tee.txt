@@ -18,3 +18,16 @@ Abhiram B S
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ echo "Abhiram B S Javalli Tudoor Thirthahalli Shimoga" | tee abhi.txt
+Abhiram B S Javalli Tudoor Thirthahalli Shimoga
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -l abhi.txt
+-rw-r--r--. 1 abhiram abhiram 48 Nov 21 13:17 abhi.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhi.txt
+Abhiram B S Javalli Tudoor Thirthahalli Shimoga
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
