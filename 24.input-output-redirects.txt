@@ -205,3 +205,12 @@ drwxr-xr-x. 3 abhiram abhiram 4096 Nov 18 16:15 Downloads
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ echo "Abhiram B S" >> findpath.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat findpath.txt 
+/home/abhiram
+Abhiram B S
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
