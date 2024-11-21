@@ -214,3 +214,13 @@ Abhiram B S
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat < abhiram.txt 
+Abhiram
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+577226
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
