@@ -263,3 +263,12 @@ drwxr-xr-x. 3 abhiram abhiram 4096 Nov 18 16:15 Downloads
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ telnel localhost 2>> errorfile.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat errorfile.txt
+ls: cannot open directory '/root': Permission denied
+bash: telnel: command not found...
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
