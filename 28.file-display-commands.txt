@@ -509,4 +509,45 @@ Nov 15 13:33:49 localhost kernel: Initializing XFRM netlink socket
 Nov 15 13:33:49 localhost kernel: NET: Registered PF_INET6 protocol family
 Nov 15 13:33:49 localhost kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
 --More--(1%)
-
+[root@localhost abhiram]#
+[root@localhost abhiram]#
+[root@localhost abhiram]#
+[root@localhost abhiram]# less messages
+Nov 15 13:33:49 localhost kernel: Linux version 5.14.0-522.el9.x86_64 (mockbuild@x86-05.stream.rdu2.redhat.com) (gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-2), GNU ld version 2.35.2-54.el9) #1 SMP PREEMPT_DYNAMIC Sun Oct 20 13:04:34 UTC 2024
+Nov 15 13:33:49 localhost kernel: The list of certified hardware and cloud instances for Red Hat Enterprise Linux 9 can be viewed at the Red Hat Ecosystem Catalog, https://catalog.redhat.com.
+Nov 15 13:33:49 localhost kernel: Command line: BOOT_IMAGE=(hd0,msdos1)/vmlinuz-5.14.0-522.el9.x86_64 root=/dev/mapper/cs-root ro crashkernel=1G-4G:192M,4G-64G:256M,64G-:512M resume=/dev/mapper/cs-swap rd.lvm.lv=cs/root rd.lvm.lv=cs/swap rhgb quiet
+Nov 15 13:33:49 localhost kernel: BIOS-provided physical RAM map:
+Nov 15 13:33:49 localhost kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Nov 15 13:33:49 localhost kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Nov 15 13:33:49 localhost kernel: BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+Nov 15 13:33:49 localhost kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000f7feffff] usable
+Nov 15 13:33:49 localhost kernel: BIOS-e820: [mem 0x00000000f7ff0000-0x00000000f7ffefff] ACPI data
+Nov 15 13:33:49 localhost kernel: BIOS-e820: [mem 0x00000000f7fff000-0x00000000f7ffffff] ACPI NVS
+Nov 15 13:33:49 localhost kernel: BIOS-e820: [mem 0x0000000100000000-0x0000000107ffffff] usable
+Nov 15 13:33:49 localhost kernel: NX (Execute Disable) protection: active
+Nov 15 13:33:49 localhost kernel: APIC: Static calls initialized
+Nov 15 13:33:49 localhost kernel: SMBIOS 2.3 present.
+Nov 15 13:33:49 localhost kernel: DMI: Microsoft Corporation Virtual Machine/Virtual Machine, BIOS 090008  12/07/2018
+Nov 15 13:33:49 localhost kernel: Hypervisor detected: Microsoft Hyper-V
+Nov 15 13:33:49 localhost kernel: Hyper-V: privilege flags low 0x2e7f, high 0x388030, hints 0x20e24, misc 0xe0bed7b2
+Nov 15 13:33:49 localhost kernel: Hyper-V: Nested features: 0x0
+Nov 15 13:33:49 localhost kernel: Hyper-V: LAPIC Timer Frequency: 0x30d40
+Nov 15 13:33:49 localhost kernel: Hyper-V: Using hypercall for remote TLB flush
+Nov 15 13:33:49 localhost kernel: clocksource: hyperv_clocksource_tsc_page: mask: 0xffffffffffffffff max_cycles: 0x24e6a1710, max_idle_ns: 440795202120 ns
+Nov 15 13:33:49 localhost kernel: clocksource: hyperv_clocksource_msr: mask: 0xffffffffffffffff max_cycles: 0x24e6a1710, max_idle_ns: 440795202120 ns
+Nov 15 13:33:49 localhost kernel: tsc: Marking TSC unstable due to running on Hyper-V
+Nov 15 13:33:49 localhost kernel: tsc: Detected 2904.007 MHz processor
+Nov 15 13:33:49 localhost kernel: last_pfn = 0x108000 max_arch_pfn = 0x400000000
+Nov 15 13:33:49 localhost kernel: MTRR map: 4 entries (3 fixed + 1 variable; max 19), built from 8 variable MTRRs
+Nov 15 13:33:49 localhost kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Nov 15 13:33:49 localhost kernel: last_pfn = 0xf7ff0 max_arch_pfn = 0x400000000
+Nov 15 13:33:49 localhost kernel: found SMP MP-table at [mem 0x000ff780-0x000ff78f]
+Nov 15 13:33:49 localhost kernel: Using GB pages for direct mapping
+Nov 15 13:33:49 localhost kernel: RAMDISK: [mem 0x30f9a000-0x347c4fff]
+Nov 15 13:33:49 localhost kernel: ACPI: Early table checksum verification disabled
+Nov 15 13:33:49 localhost kernel: ACPI: RSDP 0x00000000000F5C00 000014 (v00 ACPIAM)
+Nov 15 13:33:49 localhost kernel: ACPI: RSDT 0x00000000F7FF0000 000040 (v01 VRTUAL MICROSFT 12001807 MSFT 00000097)
+messages
+[root@localhost abhiram]#
+[root@localhost abhiram]#
+[root@localhost abhiram]#
