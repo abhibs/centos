@@ -203,4 +203,18 @@ Anu pi
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -l | cut -c2-4
+ota
+rwx
+rwx
+rwx
+rw-
+rwx
+rwx
+rwx
+rwx
+rwx
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
 
