@@ -289,3 +289,13 @@ total 228
 [abhiram@localhost Linux]$ 
 [abhiram@localhost Linux]$ 
 [abhiram@localhost Linux]$ 
+[abhiram@localhost ~]$ ls
+b.txt  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ mv b.txt abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls
+abhiram.txt  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
