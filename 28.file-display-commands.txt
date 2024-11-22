@@ -69,3 +69,52 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# cd /home/abhiram
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# whoami
+root
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# pwd
+/home/abhiram
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# ls -ltr
+total 3188
+drwxr-xr-x. 2 abhiram abhiram       6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram       6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram       6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram       6 Nov 15 13:40 Videos
+drwxr-xr-x. 2 abhiram abhiram    8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 7 abhiram abhiram    4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram    4096 Nov 18 16:15 Downloads
+drwxr-xr-x. 3 abhiram abhiram      19 Nov 22 12:33 Documents
+-rw-------. 1 root    root    3242787 Nov 22 14:29 messages
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# echo "Abhiram B S" > abhiram.txt
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# ls -ltr
+total 3192
+drwxr-xr-x. 2 abhiram abhiram       6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram       6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram       6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram       6 Nov 15 13:40 Videos
+drwxr-xr-x. 2 abhiram abhiram    8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 7 abhiram abhiram    4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram    4096 Nov 18 16:15 Downloads
+drwxr-xr-x. 3 abhiram abhiram      19 Nov 22 12:33 Documents
+-rw-------. 1 root    root    3242787 Nov 22 14:29 messages
+-rw-r--r--. 1 root    root         12 Nov 22 14:45 abhiram.txt
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# cat abhiram.txt
+Abhiram B S
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+
