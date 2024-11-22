@@ -1,0 +1,5 @@
+[abhiram@localhost ~]$ cp /var/log/messages .
+cp: cannot open '/var/log/messages' for reading: Permission denied
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
