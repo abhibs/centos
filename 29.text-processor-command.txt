@@ -282,3 +282,37 @@ Anu
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat employee.txt
+Abhiram Javalli
+Anjan Balekoppa
+Aravind Honnekoppa
+Anitha Honnekoppa
+Raghu Balekoppa
+Radhika Balekoppa
+Ambika Balekoppa
+Krishna Agumbe
+Venkatesh Agumbe
+Sarita Bangalore
+Surabi Bangalore
+Manu Udupi
+Anu Udupi
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ awk '{print $2}' employee.txt
+Javalli
+Balekoppa
+Honnekoppa
+Honnekoppa
+Balekoppa
+Balekoppa
+Balekoppa
+Agumbe
+Agumbe
+Bangalore
+Bangalore
+Udupi
+Udupi
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
