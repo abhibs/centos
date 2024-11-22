@@ -20,7 +20,7 @@ Password:
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
-[root@localhost ~]# cp /var/log/messages .
+[root@localhost ~]# cp /var/log/messages /home/abhiram
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
