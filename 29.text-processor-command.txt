@@ -70,4 +70,37 @@ There is NO WARRANTY, to the extent permitted by law.
 Written by David M. Ihnat, David MacKenzie, and Jim Meyering.
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$  
+[abhiram@localhost ~]$ cat employee.txt
+Abhiram Javalli
+Anjan Balekoppa
+Aravind Honnekoppa
+Anitha Honnekoppa
+Raghu Balekoppa
+Radhika Balekoppa
+Ambika Balekoppa
+Krishna Agumbe
+Venkatesh Agumbe
+Sarita Bangalore
+Surabi Bangalore
+Manu Udupi
+Anu Udupi
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cut -c1 employee.txt
+A
+A
+A
+A
+R
+R
+A
+K
+V
+S
+S
+M
+A
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
