@@ -551,3 +551,8 @@ messages
 [root@localhost abhiram]#
 [root@localhost abhiram]#
 [root@localhost abhiram]#
+[root@localhost abhiram]# head -1 messages
+Nov 15 13:33:49 localhost kernel: Linux version 5.14.0-522.el9.x86_64 (mockbuild@x86-05.stream.rdu2.redhat.com) (gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-2), GNU ld version 2.35.2-54.el9) #1 SMP PREEMPT_DYNAMIC Sun Oct 20 13:04:34 UTC 2024
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
+[root@localhost abhiram]# 
