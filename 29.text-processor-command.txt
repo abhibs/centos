@@ -54,3 +54,9 @@ Anu Udupi
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cut employee.txt
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
