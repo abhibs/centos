@@ -594,3 +594,8 @@ drwxr-xr-x. 3 abhiram abhiram   19 Nov 22 12:33 Documents
 [root@localhost abhiram]# 
 [root@localhost abhiram]# 
 [root@localhost abhiram]# 
+[root@localhost abhiram]# exit
+logout
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
