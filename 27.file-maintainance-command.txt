@@ -299,3 +299,37 @@ abhiram.txt  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls
+abhiram.txt  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ mv abhiram.txt /tmp
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd /tmp
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ ls -ltr
+total 4
+drwxr-xr-x. 2 abhiram abhiram  6 Nov 20 16:04 vscode-typescript1000
+drwx------. 2 abhiram abhiram 54 Nov 21 12:02 evince-5203
+drwx------. 3 root    root    17 Nov 22 11:07 systemd-private-95c1d29e05484177ba3c8f745759bca7-dbus-broker.service-bUHUc7
+drwx------. 3 root    root    17 Nov 22 11:07 systemd-private-95c1d29e05484177ba3c8f745759bca7-chronyd.service-f6c0CI
+drwx------. 3 root    root    17 Nov 22 11:07 systemd-private-95c1d29e05484177ba3c8f745759bca7-irqbalance.service-JJa4SO
+drwx------. 3 root    root    17 Nov 22 11:07 systemd-private-95c1d29e05484177ba3c8f745759bca7-power-profiles-daemon.service-ZFJhAF
+drwx------. 3 root    root    17 Nov 22 11:07 systemd-private-95c1d29e05484177ba3c8f745759bca7-rtkit-daemon.service-1iLNMC
+drwx------. 3 root    root    17 Nov 22 11:07 systemd-private-95c1d29e05484177ba3c8f745759bca7-switcheroo-control.service-5I6p8A
+drwx------. 3 root    root    17 Nov 22 11:07 systemd-private-95c1d29e05484177ba3c8f745759bca7-systemd-logind.service-F3P4aC
+drwx------. 3 root    root    17 Nov 22 11:07 systemd-private-95c1d29e05484177ba3c8f745759bca7-upower.service-vmWLgg
+drwx------. 3 root    root    17 Nov 22 11:07 systemd-private-95c1d29e05484177ba3c8f745759bca7-ModemManager.service-RUJyhy
+drwx------. 3 root    root    17 Nov 22 11:07 systemd-private-95c1d29e05484177ba3c8f745759bca7-kdump.service-W2exTl
+drwx------. 3 root    root    17 Nov 22 11:08 systemd-private-95c1d29e05484177ba3c8f745759bca7-colord.service-YacgDI
+drwx------. 3 root    root    17 Nov 22 12:08 systemd-private-95c1d29e05484177ba3c8f745759bca7-fwupd.service-T3bVFu
+-rw-r--r--. 1 abhiram abhiram 12 Nov 22 13:09 abhiram.txt
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
+[abhiram@localhost tmp]$ 
