@@ -85,6 +85,11 @@ Abhiram Balekoppa
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cmp employee.txt new-employee.txt 
+employee.txt new-employee.txt differ: byte 9, line 1
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
 
 
                                                                                                            1,1           Top
