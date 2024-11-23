@@ -715,3 +715,11 @@ Anu Udupi
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ grep Balekoppa employee.txt | awk '{print $1}'
+Anjan
+Raghu
+Radhika
+Ambika
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
