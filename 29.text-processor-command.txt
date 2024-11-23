@@ -689,3 +689,8 @@ Ambika Balekoppa
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ grep -i abhiram employee.txt
+Abhiram Javalli
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
