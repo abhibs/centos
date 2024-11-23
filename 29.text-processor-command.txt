@@ -482,3 +482,42 @@ abhiram
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ awk -F: '{print $6}' /etc/passwd
+/root
+/bin
+/sbin
+/var/adm
+/var/spool/lpd
+/sbin
+/sbin
+/sbin
+/var/spool/mail
+/root
+/usr/games
+/var/ftp
+/
+/
+/
+/
+/var/run/avahi-daemon
+/
+/
+/var/lib/geoclue
+/
+/nonexisting
+/var/lib/colord
+/
+/var/cache/clevis
+/var/lib/setroubleshoot
+/run/pipewire
+/
+/var/lib/gdm
+/run/gnome-initial-setup/
+/usr/share/empty.sshd
+/var/lib/chrony
+/var/lib/dnsmasq
+/
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
