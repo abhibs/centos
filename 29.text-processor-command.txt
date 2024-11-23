@@ -1023,3 +1023,37 @@ Abhiram Javalli
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat employee.txt
+Abhiram Javalli
+Anjan Balekoppa
+Aravind Honnekoppa
+Anitha Honnekoppa
+Raghu Balekoppa
+Radhika Balekoppa
+Ambika Balekoppa
+Krishna Agumbe
+Venkatesh Agumbe
+Sarita Bangalore
+Surabi Bangalore
+Manu Udupi
+Anu Udupi
+Abhiram Javalli
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ sort employee.txt | uniq
+Abhiram Javalli
+Ambika Balekoppa
+Anitha Honnekoppa
+Anjan Balekoppa
+Anu Udupi
+Aravind Honnekoppa
+Krishna Agumbe
+Manu Udupi
+Radhika Balekoppa
+Raghu Balekoppa
+Sarita Bangalore
+Surabi Bangalore
+Venkatesh Agumbe
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
