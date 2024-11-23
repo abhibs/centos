@@ -526,3 +526,36 @@ Abhi B S
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat employee.txt
+Abhiram Javalli
+Anjan Balekoppa
+Aravind Honnekoppa
+Anitha Honnekoppa
+Raghu Balekoppa
+Radhika Balekoppa
+Ambika Balekoppa
+Krishna Agumbe
+Venkatesh Agumbe
+Sarita Bangalore
+Surabi Bangalore
+Manu Udupi
+Anu Udupi
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat employee.txt | awk '{$2="Javalli"; print $0}'
+Abhiram Javalli
+Anjan Javalli
+Aravind Javalli
+Anitha Javalli
+Raghu Javalli
+Radhika Javalli
+Ambika Javalli
+Krishna Javalli
+Venkatesh Javalli
+Sarita Javalli
+Surabi Javalli
+Manu Javalli
+Anu Javalli
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$
