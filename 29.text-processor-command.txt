@@ -847,3 +847,36 @@ Venkatesh Agumbe
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat employee.txt
+Abhiram Javalli
+Anjan Balekoppa
+Aravind Honnekoppa
+Anitha Honnekoppa
+Raghu Balekoppa
+Radhika Balekoppa
+Ambika Balekoppa
+Krishna Agumbe
+Venkatesh Agumbe
+Sarita Bangalore
+Surabi Bangalore
+Manu Udupi
+Anu Udupi
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ sort -r employee.txt
+Venkatesh Agumbe
+Surabi Bangalore
+Sarita Bangalore
+Raghu Balekoppa
+Radhika Balekoppa
+Manu Udupi
+Krishna Agumbe
+Aravind Honnekoppa
+Anu Udupi
+Anjan Balekoppa
+Anitha Honnekoppa
+Ambika Balekoppa
+Abhiram Javalli
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
