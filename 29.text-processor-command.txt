@@ -1079,3 +1079,46 @@ Abhiram Javalli
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 24
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 18 16:15 Downloads
+drwxr-xr-x. 3 abhiram abhiram   19 Nov 22 12:33 Documents
+-rw-r--r--. 1 abhiram abhiram  223 Nov 23 13:01 employee.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat employee.txt 
+Abhiram Javalli
+Anjan Balekoppa
+Aravind Honnekoppa
+Anitha Honnekoppa
+Raghu Balekoppa
+Radhika Balekoppa
+Ambika Balekoppa
+Krishna Agumbe
+Venkatesh Agumbe
+Sarita Bangalore
+Surabi Bangalore
+Manu Udupi
+Anu Udupi
+Abhiram Javalli
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ wc --version
+wc (GNU coreutils) 8.32
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Paul Rubin and David MacKenzie.
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
