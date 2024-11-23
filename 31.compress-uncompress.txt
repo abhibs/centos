@@ -3121,6 +3121,118 @@ total 2548
 [abhiram@localhost Backup]$ 
 [abhiram@localhost Backup]$ 
 [abhiram@localhost Backup]$ 
-
-
-
+[abhiram@localhost Backup]$ ls -ltr
+total 2548
+-rw-r--r--. 1 abhiram abhiram    1014 Nov 15 15:16 1.ifconfig.txt
+-rw-r--r--. 1 abhiram abhiram     158 Nov 15 15:59 2.whoami.txt
+-rw-r--r--. 1 abhiram abhiram     173 Nov 15 16:03 3.hostname.txt
+-rw-r--r--. 1 abhiram abhiram    1812 Nov 15 16:07 4.file-system.txt
+-rw-r--r--. 1 abhiram abhiram    5871 Nov 15 16:46 5.filesystem-structure-description.txt
+-rw-r--r--. 1 abhiram abhiram    5385 Nov 15 16:59 6.file-system-navigation.txt
+-rw-r--r--. 1 abhiram abhiram    3542 Nov 15 18:01 7.file-directory-property.txt
+-rw-r--r--. 1 abhiram abhiram    1985 Nov 15 18:29 8.different-types-of-root.txt
+-rw-r--r--. 1 abhiram abhiram     552 Nov 16 12:45 9.user-change-password.txt
+-rw-r--r--. 1 abhiram abhiram    1153 Nov 16 15:48 10.absolute-relative-path.txt
+-rw-r--r--. 1 abhiram abhiram    7990 Nov 16 16:46 11.creating-files.txt
+-rw-r--r--. 1 abhiram abhiram    5100 Nov 16 17:05 12.creating-folder.txt
+-rw-r--r--. 1 abhiram abhiram    8166 Nov 16 17:41 13.copy-directory.txt
+-rw-r--r--. 1 abhiram abhiram    2551 Nov 18 10:48 14.find-file-direcory.txt
+-rw-r--r--. 1 abhiram abhiram   12350 Nov 18 13:16 15.wild-card.txt
+-rw-r--r--. 1 abhiram abhiram   18486 Nov 18 15:15 16.soft-hard-link.txt
+-rw-r--r--. 1 abhiram abhiram    3138 Nov 18 15:35 17.command-syntax.txt
+-rw-r--r--. 1 abhiram abhiram   10077 Nov 19 10:37 18.file-permission.txt
+-rw-r--r--. 1 abhiram abhiram    7495 Nov 19 11:48 19.file-permission-numeric-mode.txt
+-rw-r--r--. 1 abhiram abhiram    7846 Nov 19 14:08 20.chown-chgrp.txt
+-rw-r--r--. 1 abhiram abhiram    4987 Nov 20 13:46 21.access-control-list.txt
+-rw-r--r--. 1 abhiram abhiram   16222 Nov 20 14:38 22.help-command.txt
+-rw-r--r--. 1 abhiram abhiram    5765 Nov 20 15:53 23.adding-text-file.txt
+-rw-r--r--. 1 abhiram abhiram    9895 Nov 21 12:43 24.input-output-redirects.txt
+-rw-r--r--. 1 abhiram abhiram    2834 Nov 21 16:59 25.tee.txt
+-rw-r--r--. 1 abhiram abhiram   22867 Nov 21 17:28 26.pipe.txt
+-rw-r--r--. 1 abhiram abhiram   16054 Nov 22 14:05 27.file-maintainance-command.txt
+-rw-r--r--. 1 abhiram abhiram   43459 Nov 22 15:18 28.file-display-commands.txt
+-rw-r--r--. 1 abhiram abhiram   32999 Nov 23 14:37 29.text-processor-command.txt
+-rw-r--r--. 1 abhiram abhiram    2742 Nov 23 14:56 30.compare-files.txt
+-rw-r--r--. 1 abhiram abhiram   50951 Nov 23 15:53 31.compress-uncompress.txt
+-rw-r--r--. 1 abhiram abhiram 2232320 Nov 23 15:54 linux-commands.tar
+[abhiram@localhost Backup]$ 
+[abhiram@localhost Backup]$ 
+[abhiram@localhost Backup]$ gzip linux-commands.tar 
+[abhiram@localhost Backup]$ 
+[abhiram@localhost Backup]$ 
+[abhiram@localhost Backup]$ ls -ltr
+total 1620
+-rw-r--r--. 1 abhiram abhiram    1014 Nov 15 15:16 1.ifconfig.txt
+-rw-r--r--. 1 abhiram abhiram     158 Nov 15 15:59 2.whoami.txt
+-rw-r--r--. 1 abhiram abhiram     173 Nov 15 16:03 3.hostname.txt
+-rw-r--r--. 1 abhiram abhiram    1812 Nov 15 16:07 4.file-system.txt
+-rw-r--r--. 1 abhiram abhiram    5871 Nov 15 16:46 5.filesystem-structure-description.txt
+-rw-r--r--. 1 abhiram abhiram    5385 Nov 15 16:59 6.file-system-navigation.txt
+-rw-r--r--. 1 abhiram abhiram    3542 Nov 15 18:01 7.file-directory-property.txt
+-rw-r--r--. 1 abhiram abhiram    1985 Nov 15 18:29 8.different-types-of-root.txt
+-rw-r--r--. 1 abhiram abhiram     552 Nov 16 12:45 9.user-change-password.txt
+-rw-r--r--. 1 abhiram abhiram    1153 Nov 16 15:48 10.absolute-relative-path.txt
+-rw-r--r--. 1 abhiram abhiram    7990 Nov 16 16:46 11.creating-files.txt
+-rw-r--r--. 1 abhiram abhiram    5100 Nov 16 17:05 12.creating-folder.txt
+-rw-r--r--. 1 abhiram abhiram    8166 Nov 16 17:41 13.copy-directory.txt
+-rw-r--r--. 1 abhiram abhiram    2551 Nov 18 10:48 14.find-file-direcory.txt
+-rw-r--r--. 1 abhiram abhiram   12350 Nov 18 13:16 15.wild-card.txt
+-rw-r--r--. 1 abhiram abhiram   18486 Nov 18 15:15 16.soft-hard-link.txt
+-rw-r--r--. 1 abhiram abhiram    3138 Nov 18 15:35 17.command-syntax.txt
+-rw-r--r--. 1 abhiram abhiram   10077 Nov 19 10:37 18.file-permission.txt
+-rw-r--r--. 1 abhiram abhiram    7495 Nov 19 11:48 19.file-permission-numeric-mode.txt
+-rw-r--r--. 1 abhiram abhiram    7846 Nov 19 14:08 20.chown-chgrp.txt
+-rw-r--r--. 1 abhiram abhiram    4987 Nov 20 13:46 21.access-control-list.txt
+-rw-r--r--. 1 abhiram abhiram   16222 Nov 20 14:38 22.help-command.txt
+-rw-r--r--. 1 abhiram abhiram    5765 Nov 20 15:53 23.adding-text-file.txt
+-rw-r--r--. 1 abhiram abhiram    9895 Nov 21 12:43 24.input-output-redirects.txt
+-rw-r--r--. 1 abhiram abhiram    2834 Nov 21 16:59 25.tee.txt
+-rw-r--r--. 1 abhiram abhiram   22867 Nov 21 17:28 26.pipe.txt
+-rw-r--r--. 1 abhiram abhiram   16054 Nov 22 14:05 27.file-maintainance-command.txt
+-rw-r--r--. 1 abhiram abhiram   43459 Nov 22 15:18 28.file-display-commands.txt
+-rw-r--r--. 1 abhiram abhiram   32999 Nov 23 14:37 29.text-processor-command.txt
+-rw-r--r--. 1 abhiram abhiram    2742 Nov 23 14:56 30.compare-files.txt
+-rw-r--r--. 1 abhiram abhiram   50951 Nov 23 15:53 31.compress-uncompress.txt
+-rw-r--r--. 1 abhiram abhiram 1278911 Nov 23 15:54 linux-commands.tar.gz
+[abhiram@localhost Backup]$ 
+[abhiram@localhost Backup]$ 
+[abhiram@localhost Backup]$ gunzip linux-commands.tar.gz
+[abhiram@localhost Backup]$ 
+[abhiram@localhost Backup]$ 
+[abhiram@localhost Backup]$ ls -ltr
+total 2548
+-rw-r--r--. 1 abhiram abhiram    1014 Nov 15 15:16 1.ifconfig.txt
+-rw-r--r--. 1 abhiram abhiram     158 Nov 15 15:59 2.whoami.txt
+-rw-r--r--. 1 abhiram abhiram     173 Nov 15 16:03 3.hostname.txt
+-rw-r--r--. 1 abhiram abhiram    1812 Nov 15 16:07 4.file-system.txt
+-rw-r--r--. 1 abhiram abhiram    5871 Nov 15 16:46 5.filesystem-structure-description.txt
+-rw-r--r--. 1 abhiram abhiram    5385 Nov 15 16:59 6.file-system-navigation.txt
+-rw-r--r--. 1 abhiram abhiram    3542 Nov 15 18:01 7.file-directory-property.txt
+-rw-r--r--. 1 abhiram abhiram    1985 Nov 15 18:29 8.different-types-of-root.txt
+-rw-r--r--. 1 abhiram abhiram     552 Nov 16 12:45 9.user-change-password.txt
+-rw-r--r--. 1 abhiram abhiram    1153 Nov 16 15:48 10.absolute-relative-path.txt
+-rw-r--r--. 1 abhiram abhiram    7990 Nov 16 16:46 11.creating-files.txt
+-rw-r--r--. 1 abhiram abhiram    5100 Nov 16 17:05 12.creating-folder.txt
+-rw-r--r--. 1 abhiram abhiram    8166 Nov 16 17:41 13.copy-directory.txt
+-rw-r--r--. 1 abhiram abhiram    2551 Nov 18 10:48 14.find-file-direcory.txt
+-rw-r--r--. 1 abhiram abhiram   12350 Nov 18 13:16 15.wild-card.txt
+-rw-r--r--. 1 abhiram abhiram   18486 Nov 18 15:15 16.soft-hard-link.txt
+-rw-r--r--. 1 abhiram abhiram    3138 Nov 18 15:35 17.command-syntax.txt
+-rw-r--r--. 1 abhiram abhiram   10077 Nov 19 10:37 18.file-permission.txt
+-rw-r--r--. 1 abhiram abhiram    7495 Nov 19 11:48 19.file-permission-numeric-mode.txt
+-rw-r--r--. 1 abhiram abhiram    7846 Nov 19 14:08 20.chown-chgrp.txt
+-rw-r--r--. 1 abhiram abhiram    4987 Nov 20 13:46 21.access-control-list.txt
+-rw-r--r--. 1 abhiram abhiram   16222 Nov 20 14:38 22.help-command.txt
+-rw-r--r--. 1 abhiram abhiram    5765 Nov 20 15:53 23.adding-text-file.txt
+-rw-r--r--. 1 abhiram abhiram    9895 Nov 21 12:43 24.input-output-redirects.txt
+-rw-r--r--. 1 abhiram abhiram    2834 Nov 21 16:59 25.tee.txt
+-rw-r--r--. 1 abhiram abhiram   22867 Nov 21 17:28 26.pipe.txt
+-rw-r--r--. 1 abhiram abhiram   16054 Nov 22 14:05 27.file-maintainance-command.txt
+-rw-r--r--. 1 abhiram abhiram   43459 Nov 22 15:18 28.file-display-commands.txt
+-rw-r--r--. 1 abhiram abhiram   32999 Nov 23 14:37 29.text-processor-command.txt
+-rw-r--r--. 1 abhiram abhiram    2742 Nov 23 14:56 30.compare-files.txt
+-rw-r--r--. 1 abhiram abhiram   50951 Nov 23 15:53 31.compress-uncompress.txt
+-rw-r--r--. 1 abhiram abhiram 2232320 Nov 23 15:54 linux-commands.tar
+[abhiram@localhost Backup]$ 
+[abhiram@localhost Backup]$ 
+[abhiram@localhost Backup]$ 
