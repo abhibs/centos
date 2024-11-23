@@ -559,3 +559,34 @@ Anu Javalli
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$
+[abhiram@localhost ~]$ cat employee.txt
+Abhiram Javalli
+Anjan Balekoppa
+Aravind Honnekoppa
+Anitha Honnekoppa
+Raghu Balekoppa
+Radhika Balekoppa
+Ambika Balekoppa
+Krishna Agumbe
+Venkatesh Agumbe
+Sarita Bangalore
+Surabi Bangalore
+Manu Udupi
+Anu Udupi
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat employee.txt | awk 'length($0) > 10' employee.txt
+Abhiram Javalli
+Anjan Balekoppa
+Aravind Honnekoppa
+Anitha Honnekoppa
+Raghu Balekoppa
+Radhika Balekoppa
+Ambika Balekoppa
+Krishna Agumbe
+Venkatesh Agumbe
+Sarita Bangalore
+Surabi Bangalore
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
