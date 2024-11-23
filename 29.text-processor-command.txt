@@ -683,4 +683,9 @@ Radhika Balekoppa
 Ambika Balekoppa
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$  
+[abhiram@localhost ~]$ grep -c Balekoppa employee.txt
+4
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
