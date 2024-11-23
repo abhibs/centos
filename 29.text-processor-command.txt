@@ -1127,3 +1127,8 @@ Written by Paul Rubin and David MacKenzie.
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ wc -l employee.txt
+14 employee.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
