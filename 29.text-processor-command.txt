@@ -1057,3 +1057,20 @@ Venkatesh Agumbe
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ sort employee.txt | uniq -c
+      2 Abhiram Javalli
+      1 Ambika Balekoppa
+      1 Anitha Honnekoppa
+      1 Anjan Balekoppa
+      1 Anu Udupi
+      1 Aravind Honnekoppa
+      1 Krishna Agumbe
+      1 Manu Udupi
+      1 Radhika Balekoppa
+      1 Raghu Balekoppa
+      1 Sarita Bangalore
+      1 Surabi Bangalore
+      1 Venkatesh Agumbe
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
