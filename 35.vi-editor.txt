@@ -29,4 +29,10 @@ drwxr-xr-x. 3 abhiram abhiram 4096 Nov 25 12:28 Downloads
 ~                                                                                                                            
 ~                                                                                                                            
 "abhiram.txt" [New]                                                                                        0,0-1         All
+i
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+-- INSERT --                                                                                               0,1           All
 
