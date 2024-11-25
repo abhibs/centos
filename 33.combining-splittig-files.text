@@ -222,3 +222,40 @@ drwxr-xr-x. 3 abhiram abhiram   19 Nov 22 12:33 Documents
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat empaa empab empac empad empae empaf >  employees.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 48
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 18 16:15 Downloads
+drwxr-xr-x. 3 abhiram abhiram   19 Nov 22 12:33 Documents
+-rw-r--r--. 1 abhiram abhiram   26 Nov 25 11:29 empac
+-rw-r--r--. 1 abhiram abhiram   15 Nov 25 11:29 empab
+-rw-r--r--. 1 abhiram abhiram   18 Nov 25 11:29 empaa
+-rw-r--r--. 1 abhiram abhiram    9 Nov 25 11:29 empaf
+-rw-r--r--. 1 abhiram abhiram   12 Nov 25 11:29 empae
+-rw-r--r--. 1 abhiram abhiram   22 Nov 25 11:29 empad
+-rw-r--r--. 1 abhiram abhiram  102 Nov 25 11:55 employees.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat employees.txt 
+Abhiram B S
+Anjan
+Aravind
+Anitha
+Anushree
+Venkatesh Prasad
+Krishna Prasad
+Sarita
+Surabi
+Manu
+Anuradha
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
