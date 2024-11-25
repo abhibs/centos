@@ -38,3 +38,18 @@ drwxr-xr-x. 3 abhiram abhiram 4096 Nov 25 12:28 Downloads
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ mkdir Abhiram; cd Abhiram; echo "Abhiram B S Javalli Tudoor Thirthahalli Shimoga" > abhiram.txt; ls -ltr
+total 4
+-rw-r--r--. 1 abhiram abhiram 48 Nov 25 12:44 abhiram.txt
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ pwd
+/home/abhiram/Abhiram
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ cat abhiram.txt 
+Abhiram B S Javalli Tudoor Thirthahalli Shimoga
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
+[abhiram@localhost Abhiram]$ 
