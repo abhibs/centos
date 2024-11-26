@@ -362,4 +362,51 @@ Karnataka
 India
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ vi abhiram.txt
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+Karnataka
+India
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 7L, 65B               
+i 
+Abhiram B S
+Javalli
+Tudoor P
+Thirthahalli Tq
+Shimoga D
+Karnataka State
+India Country
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+-- INSERT --                                                                                               7,14          All
+Esc                                                                       4,12          All
+!q means not saving and exit the file
+[abhiram@localhost ~]$ cat abhiram.txt 
+Abhiram B S
+Javalli 
+Tudoor
+Thirthahalli
+Shimoga
+Karnataka
+India
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+
