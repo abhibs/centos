@@ -169,3 +169,58 @@ Shimoga
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ vi abhiram.txt
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 5L, 49B                                                                                      5,1           All
+double-d is deleting whole line
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 5L, 49B                                                                                      4,1           All
+single u is undo the file
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+1 more line; before #1  15:08:10                                                                           5,1           All
+:wq! or Shift+zz
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
