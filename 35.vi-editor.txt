@@ -373,7 +373,23 @@ India
 ~                                                                                                                            
 ~                                                                                                                            
 ~                                                                                                                            
+~                     Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+Karnataka
+India
 ~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+search hit BOTTOM, continuing at TOP                                                                       3,1           All
+                                                                                                       
 ~                                                                                                                            
 ~                                                                                                                            
 ~                                                                                                                            
@@ -409,4 +425,38 @@ India
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
-
+[abhiram@localhost ~]$ vi abhiram.txt 
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+Karnataka
+India
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 7L, 65B                                                                                      7,5           All
+/Abhiram hit enter
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+Karnataka
+India
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+search hit BOTTOM, continuing at TOP                                                                       3,1           All
+!q
