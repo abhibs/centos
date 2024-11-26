@@ -224,3 +224,56 @@ Shimoga
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ vi abhiram.txt 
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 5L, 49B                                                                                      5,1           All
+i 
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+Karnataka India
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+-- INSERT --                                                                                               6,16          All
+Esc
+delete word India using single - x , x is used for deleting single character
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+Karnataka
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+                                                                                                           6,10          All
+:wq! or Shift+zz                        
