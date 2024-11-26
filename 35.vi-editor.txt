@@ -276,4 +276,43 @@ Karnataka
 ~                                                                                                                            
 ~                                                                                                                            
                                                                                                            6,10          All
-:wq! or Shift+zz                        
+:wq! or Shift+zz 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ vi abhiram.txt 
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+Karnataka
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 6L, 60B                                                                                      6,10          All
+replace Karnataka to India, Select Character, single - r , replace chacter and so on, extra charactor you can remove through x
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+India
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 6L, 55B                                                                                      6,5           All
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
