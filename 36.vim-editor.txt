@@ -1,0 +1,74 @@
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ hostname
+localhost.localdomain
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -l
+total 20
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram   19 Nov 22 12:33 Documents
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 25 12:28 Downloads
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ vim --version
+VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Aug 05 2024 00:00:00)
+Included patches: 1-2637
+Modified by <bugzilla@redhat.com>
+Compiled by <bugzilla@redhat.com>
+Huge version without GUI.  Features included (+) or not (-):
++acl               -farsi             +mouse_sgr         +tag_binary
++arabic            +file_in_path      -mouse_sysmouse    -tag_old_static
++autocmd           +find_in_path      +mouse_urxvt       -tag_any_white
++autochdir         +float             +mouse_xterm       -tcl
+-autoservername    +folding           +multi_byte        +termguicolors
+-balloon_eval      -footer            +multi_lang        +terminal
++balloon_eval_term +fork()            -mzscheme          +terminfo
+-browse            +gettext           +netbeans_intg     +termresponse
+++builtin_terms    -hangul_input      +num64             +textobjects
++byte_offset       +iconv             +packages          +textprop
++channel           +insert_expand     +path_extra        +timers
++cindent           +ipv6              +perl/dyn          +title
+-clientserver      +job               +persistent_undo   -toolbar
+-clipboard         +jumplist          +popupwin          +user_commands
++cmdline_compl     +keymap            +postscript        +vartabs
++cmdline_hist      +lambda            +printer           +vertsplit
++cmdline_info      +langmap           +profile           +virtualedit
++comments          +libcall           -python            +visual
++conceal           +linebreak         +python3/dyn       +visualextra
++cryptv            +lispindent        +quickfix          +viminfo
++cscope            +listcmds          +reltime           +vreplace
++cursorbind        +localmap          +rightleft         +wildignore
++cursorshape       +lua/dyn           +ruby/dyn          +wildmenu
++dialog_con        +menu              +scrollbind        +windows
++diff              +mksession         +signs             +writebackup
++digraphs          +modify_fname      +smartindent       -X11
+-dnd               +mouse             -sound             -xfontset
+-ebcdic            -mouseshape        +spell             -xim
++emacs_tags        +mouse_dec         +startuptime       -xpm
++eval              +mouse_gpm         +statusline        -xsmp
++ex_extra          -mouse_jsbterm     -sun_workshop      -xterm_clipboard
++extra_search      +mouse_netterm     +syntax            -xterm_save
+   system vimrc file: "/etc/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+       defaults file: "$VIMRUNTIME/defaults.vim"
+  fall-back for $VIM: "/etc"
+ f-b for $VIMRUNTIME: "/usr/share/vim/vim82"
+Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 
+Linking: gcc -L. -Wl,-z,relro -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed -Wl,--enable-new-dtags -Wl,-z,relro -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,-z,relro -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -L/usr/local/lib -Wl,--as-needed -o vim -lm -lselinux -lncurses -lacl -lattr -lgpm -Wl,--enable-new-dtags -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -fstack-protector-strong -L/usr/local/lib -L/usr/lib64/perl5/CORE -lperl -lpthread -lresolv -ldl -lm -lcrypt -lutil -lc 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
