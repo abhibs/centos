@@ -260,3 +260,42 @@ Thirthahalli
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ vim abhiram.txt 
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 4L, 40B                                                                                      4,1           All
+x(single charector remove)
+Abhiram B S
+Javalli
+Tudoor
+
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 4L, 40B                                                                                      4,0-1         All
+shift+zz
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhiram.txt 
+Abhiram B S
+Javalli
+Tudoor
+
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
