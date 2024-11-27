@@ -299,3 +299,43 @@ Tudoor
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ vim abhiram.txt 
+Abhiram B S
+Javalli
+Tudoor
+
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 4L, 28B                                                                                      4,0-1         All
+i 
+bhiram B S
+Javalli
+Tudoor
+Bla bla bla
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+-- INSERT --                                                                                               4,12          All
+Esc
+!q(close the file without saving)
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhiram.txt 
+Abhiram B S
+Javalli
+Tudoor
+
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
