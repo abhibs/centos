@@ -126,3 +126,84 @@ Thirthahalli
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ vim abhiram.txt
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 4L, 40B                                                                                      4,1           All
+i 
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+-- INSERT --                                                                                               4,1           All
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+-- INSERT --                                                                                               5,8           All
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+                                                                                                           5,7           All
+
+shift+zz(saving the file)
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ls -ltr
+total 24
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Templates
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Public
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Music
+drwxr-xr-x. 2 abhiram abhiram    6 Nov 15 13:40 Videos
+drwxr-xr-x. 2 abhiram abhiram 8192 Nov 15 19:18 Pictures
+drwxr-xr-x. 7 abhiram abhiram 4096 Nov 18 10:43 Desktop
+drwxr-xr-x. 3 abhiram abhiram   19 Nov 22 12:33 Documents
+drwxr-xr-x. 3 abhiram abhiram 4096 Nov 25 12:28 Downloads
+-rw-r--r--. 1 abhiram abhiram   48 Nov 27 11:01 abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhiram.txt 
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
