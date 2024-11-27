@@ -41,3 +41,40 @@ E-mail bug reports to: <bug-sed@gnu.org>.
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ vi student.txt
+Abhiram Javalli
+Anjan Balekoppa
+Anushree Balekoppa
+Aravind Honnekoppa
+Raghavendra Balekoppa
+Radika Balekoppa
+Ambika Thirthahalli
+Anitha Shimoga
+Sarita Bangalore
+Surabi Bangalore
+Venkatesh Agumbe
+Krishna Agumbe
+Manu Udupi
+Anu Udupi
+:wq!
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat student.txt 
+Abhiram Javalli
+Anjan Balekoppa
+Anushree Balekoppa
+Aravind Honnekoppa
+Raghavendra Balekoppa
+Radika Balekoppa
+Ambika Thirthahalli
+Anitha Shimoga
+Sarita Bangalore
+Surabi Bangalore
+Venkatesh Agumbe
+Krishna Agumbe
+Manu Udupi
+Anu Udupi
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
