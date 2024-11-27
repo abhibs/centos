@@ -207,3 +207,30 @@ Shimoga
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ vim abhiram.txt 
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shimoga
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 5L, 48B                                                                                      5,7           All
+dd - delete the whole line
+:wq!
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhiram.txt 
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
