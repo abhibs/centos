@@ -234,3 +234,29 @@ Thirthahalli
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+~                                                                                                                            
+"abhiram.txt" 4L, 40B                                                                                      4,1           All
+dd
+u (undo the file content)
+:wq!
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhiram.txt 
+Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
