@@ -152,3 +152,33 @@ Anu Udupi
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ sed '/Balekoppa/d' student.txt 
+Aravind Honnekoppa
+Ambika Thirthahalli
+Anitha Shimoga
+Sarita Bangalore
+Surabi Bangalore
+Venkatesh Agumbe
+Krishna Agumbe
+Manu Udupi
+Anu Udupi
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat student.txt 
+Abhiram Balekoppa
+Anjan Balekoppa
+Anushree Balekoppa
+Aravind Honnekoppa
+Raghavendra Balekoppa
+Radika Balekoppa
+Ambika Thirthahalli
+Anitha Shimoga
+Sarita Bangalore
+Surabi Bangalore
+Venkatesh Agumbe
+Krishna Agumbe
+Manu Udupi
+Anu Udupi
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
