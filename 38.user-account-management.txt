@@ -35,3 +35,7 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# useradd anjan
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
