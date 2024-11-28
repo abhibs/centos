@@ -460,3 +460,12 @@ Venkatesh		Agumbe
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ sed 3,6d student.txt 
+Anjan		Balekoppa
+Anushree		Balekoppa
+Surabi		Bangalore
+Venkatesh		Agumbe
+Krishna		Agumbe
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
