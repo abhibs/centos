@@ -469,3 +469,37 @@ Krishna		Agumbe
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ sed G student.txt
+Anjan		Balekoppa
+
+Anushree		Balekoppa
+
+Aravind		Honnekoppa
+
+Ambika		Thirthahalli
+
+Anitha		Shimoga
+
+Sarita		Bangalore
+
+Surabi		Bangalore
+
+Venkatesh		Agumbe
+
+Krishna		Agumbe
+
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat student.txt 
+Anjan		Balekoppa
+Anushree		Balekoppa
+Aravind		Honnekoppa
+Ambika		Thirthahalli
+Anitha		Shimoga
+Sarita		Bangalore
+Surabi		Bangalore
+Venkatesh		Agumbe
+Krishna		Agumbe
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
