@@ -39,3 +39,8 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# id anjan
+uid=1001(anjan) gid=1001(anjan) groups=1001(anjan)
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
