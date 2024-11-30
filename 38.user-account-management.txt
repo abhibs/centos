@@ -128,3 +128,17 @@ drwx------. 16 abhiram abhiram 4096 Nov 30 10:27 abhiram
 [root@localhost home]# 
 [root@localhost home]# 
 [root@localhost home]# 
+[root@localhost home]# cd 
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# whoami
+root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# groupadd aravind
+[root@localhost ~]# 
+[root@localhost ~]# 
