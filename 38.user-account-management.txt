@@ -967,3 +967,148 @@ drwx------.  3 lakshmi  abhiram    78 Nov 30 14:47 lakshmi
 [root@localhost home]# 
 [root@localhost home]# 
 [root@localhost home]# 
+[root@localhost home]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/:/sbin/nologin
+libstoragemgmt:x:993:993:daemon account for libstoragemgmt:/:/usr/sbin/nologin
+geoclue:x:992:992:User for geoclue:/var/lib/geoclue:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/:/usr/sbin/nologin
+cockpit-wsinstance:x:991:991:User for cockpit-ws instances:/nonexisting:/sbin/nologin
+colord:x:990:990:User for colord:/var/lib/colord:/sbin/nologin
+sssd:x:989:989:User for sssd:/:/sbin/nologin
+clevis:x:988:988:Clevis Decryption Framework unprivileged user:/var/cache/clevis:/usr/sbin/nologin
+setroubleshoot:x:987:987:SELinux troubleshoot server:/var/lib/setroubleshoot:/usr/sbin/nologin
+pipewire:x:986:986:PipeWire System Daemon:/run/pipewire:/usr/sbin/nologin
+flatpak:x:985:985:User for flatpak system helper:/:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+gnome-initial-setup:x:984:983::/run/gnome-initial-setup/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/usr/sbin/nologin
+chrony:x:983:982:chrony system user:/var/lib/chrony:/sbin/nologin
+dnsmasq:x:982:981:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/usr/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+abhiram:x:1000:1000:Abhiram:/home/abhiram:/bin/bash
+anitha:x:1001:1001::/home/anitha:/bin/bash
+anushree:x:1002:1002::/home/anushree:/bin/bash
+lakshmi:x:1003:1000:Abhiram B S wife:/home/lakshmi:/bin/bash
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# cat /etc/group
+root:x:0:
+bin:x:1:
+daemon:x:2:
+sys:x:3:
+adm:x:4:
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mem:x:8:
+kmem:x:9:
+wheel:x:10:abhiram
+cdrom:x:11:
+mail:x:12:
+man:x:15:
+dialout:x:18:
+floppy:x:19:
+games:x:20:
+tape:x:33:
+video:x:39:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+users:x:100:
+nobody:x:65534:
+utmp:x:22:
+utempter:x:35:
+input:x:999:
+kvm:x:36:
+render:x:998:
+systemd-journal:x:190:
+systemd-coredump:x:997:
+dbus:x:81:
+polkitd:x:996:
+avahi:x:70:
+printadmin:x:995:
+ssh_keys:x:101:
+rtkit:x:172:
+sgx:x:994:
+libstoragemgmt:x:993:
+geoclue:x:992:
+tss:x:59:clevis
+cockpit-wsinstance:x:991:
+colord:x:990:
+sssd:x:989:
+clevis:x:988:
+setroubleshoot:x:987:
+pipewire:x:986:
+flatpak:x:985:
+brlapi:x:984:
+gdm:x:42:
+gnome-initial-setup:x:983:
+sshd:x:74:
+chrony:x:982:
+slocate:x:21:
+dnsmasq:x:981:
+tcpdump:x:72:
+abhiram:x:1000:
+anitha:x:1001:anushree
+anushree:x:1002:
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# cat /etc/shadow
+root:$6$pTUA8RmUjpSAyTpo$qAxad2f/zbFR0s8QS07uRKjeHzATp4xSqgxfxXAczkVORYtbbj9QtZ53thqxCHfVNF4vJgj3gHOmv8TrdiK1D0::0:99999:7:::
+bin:*:19760:0:99999:7:::
+daemon:*:19760:0:99999:7:::
+adm:*:19760:0:99999:7:::
+lp:*:19760:0:99999:7:::
+sync:*:19760:0:99999:7:::
+shutdown:*:19760:0:99999:7:::
+halt:*:19760:0:99999:7:::
+mail:*:19760:0:99999:7:::
+operator:*:19760:0:99999:7:::
+games:*:19760:0:99999:7:::
+ftp:*:19760:0:99999:7:::
+nobody:*:19760:0:99999:7:::
+systemd-coredump:!!:20042::::::
+dbus:!!:20042::::::
+polkitd:!!:20042::::::
+avahi:!!:20042::::::
+rtkit:!!:20042::::::
+libstoragemgmt:!*:20042::::::
+geoclue:!!:20042::::::
+tss:!!:20042::::::
+cockpit-wsinstance:!!:20042::::::
+colord:!!:20042::::::
+sssd:!!:20042::::::
+clevis:!!:20042::::::
+setroubleshoot:!!:20042::::::
+pipewire:!!:20042::::::
+flatpak:!!:20042::::::
+gdm:!!:20042::::::
+gnome-initial-setup:!!:20042::::::
+sshd:!!:20042::::::
+chrony:!!:20042::::::
+dnsmasq:!!:20042::::::
+tcpdump:!!:20042::::::
+abhiram:$6$rounds=100000$ihxLRlXozGsJb9f.$KNc6UhTw3fv5fbZGLsmLaHwIRoBMsn3N026IPKlK/XDONqpvSa3/3p/bU0lg4bq.mndCs37L7UXSwDjgf.afV1:20043:0:99999:7:::
+anitha:!!:20057:0:99999:7:::
+anushree:!!:20057:0:99999:7:::
+lakshmi:!!:20057:0:99999:7:::
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# 
