@@ -528,3 +528,7 @@ aravind:x:1001:
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# groupdel aravind
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
