@@ -1231,3 +1231,16 @@ lakshmi:$6$rounds=100000$rCdCpBq73C2rGcqc$4EFf9MKU3tXuGd6vadO0VMyx40eFP8oBM3SWpH
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# whoami
+root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# exit
+logout
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
