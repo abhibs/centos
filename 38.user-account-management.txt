@@ -1112,3 +1112,23 @@ lakshmi:!!:20057:0:99999:7:::
 [root@localhost home]# 
 [root@localhost home]# 
 [root@localhost home]# 
+[root@localhost home]# cd
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# whoami
+root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# passwd lakshmi
+Changing password for user lakshmi.
+New password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
