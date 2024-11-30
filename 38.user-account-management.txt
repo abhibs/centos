@@ -44,3 +44,61 @@ uid=1001(anjan) gid=1001(anjan) groups=1001(anjan)
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# ls -ltr
+total 3168
+-rw-------. 1 root root     908 Nov 15 13:29 anaconda-ks.cfg
+-rw-------. 1 root root 3239523 Nov 22 14:22 messages
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# cd /
+[root@localhost /]# 
+[root@localhost /]# 
+[root@localhost /]# pwd
+/
+[root@localhost /]# 
+[root@localhost /]# 
+[root@localhost /]# ls -ltr
+total 36
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 srv
+lrwxrwxrwx.   1 root root    8 Jun 25 19:53 sbin -> usr/sbin
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 mnt
+drwxr-xr-x.   2 root root    6 Jun 25 19:53 media
+lrwxrwxrwx.   1 root root    9 Jun 25 19:53 lib64 -> usr/lib64
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 lib -> usr/lib
+lrwxrwxrwx.   1 root root    7 Jun 25 19:53 bin -> usr/bin
+dr-xr-xr-x.   2 root root    6 Jun 25 19:53 afs
+drwxr-xr-x.  12 root root  144 Nov 15 13:22 usr
+drwxr-xr-x.  20 root root 4096 Nov 15 13:33 var
+drwxr-xr-x.   4 root root   40 Nov 18 16:16 opt
+dr-xr-xr-x.   5 root root 4096 Nov 19 10:53 boot
+dr-xr-xr-x. 359 root root    0 Nov 28 13:45 proc
+dr-xr-xr-x.  13 root root    0 Nov 28 13:45 sys
+drwxr-xr-x.  20 root root 3320 Nov 28 13:45 dev
+drwxr-xr-x.  44 root root 1160 Nov 28 13:45 run
+dr-xr-x---.   5 root root 4096 Nov 28 13:57 root
+drwxr-xr-x. 132 root root 8192 Nov 28 13:58 etc
+drwxr-xr-x.   4 root root   34 Nov 28 13:58 home
+drwxrwxrwt.  52 root root 8192 Nov 28 14:03 tmp
+[root@localhost /]# 
+[root@localhost /]# 
+[root@localhost /]# cd home
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# ls -ltr
+total 4
+drwx------. 16 abhiram abhiram 4096 Nov 28 13:39 abhiram
+drwx------.  3 anjan   anjan     78 Nov 28 13:58 anjan
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# cd anjan/
+[root@localhost anjan]# 
+[root@localhost anjan]# 
+[root@localhost anjan]# ls -ltr
+total 0
+[root@localhost anjan]# 
+[root@localhost anjan]# 
+[root@localhost anjan]# 
