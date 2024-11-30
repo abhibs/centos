@@ -655,3 +655,7 @@ drwx------.  3 anushree anushree   78 Nov 30 13:08 anushree
 [root@localhost home]# 
 [root@localhost home]# 
 [root@localhost home]# 
+[root@localhost home]# usermod -G anitha anushree
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# 
