@@ -102,7 +102,7 @@ total 0
 [root@localhost anjan]# 
 [root@localhost anjan]# 
 [root@localhost anjan]# 
-[root@localhost ~]# userdel anjan
+[root@localhost ~]# userdel -r anjan
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
