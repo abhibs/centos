@@ -142,3 +142,320 @@ root
 [root@localhost ~]# groupadd aravind
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# cd /etc
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# ls -ltr
+total 1312
+-rw-r--r--.  1 root root     67454 Apr 22  2020 mime.types
+-rw-r--r--.  1 root root       272 Apr 22  2020 mailcap
+-rw-r--r--.  1 root root       496 Jun  7  2020 logrotate.conf
+-rw-r--r--.  1 root root        44 Jun 23  2020 shells
+-rw-r--r--.  1 root root    692252 Jun 23  2020 services
+-rw-r--r--.  1 root root      6568 Jun 23  2020 protocols
+-rw-r--r--.  1 root root       233 Jun 23  2020 printcap
+-rw-r--r--.  1 root root        58 Jun 23  2020 networks
+-rw-r--r--.  1 root root         0 Jun 23  2020 motd
+-rw-r--r--.  1 root root       943 Jun 23  2020 inputrc
+-rw-r--r--.  1 root root       158 Jun 23  2020 hosts
+-rw-r--r--.  1 root root         9 Jun 23  2020 host.conf
+-rw-r--r--.  1 root root        66 Jun 23  2020 filesystems
+-rw-r--r--.  1 root root         0 Jun 23  2020 exports
+-rw-r--r--.  1 root root      1362 Jun 23  2020 ethertypes
+-rw-r--r--.  1 root root      1529 Jun 23  2020 aliases
+-rw-r--r--.  1 root root      2391 Mar  1  2021 libuser.conf
+-rw-r--r--.  1 root root      1634 Aug  2  2021 rpc
+-rw-r--r--.  1 root root        28 Aug  2  2021 ld.so.conf
+-rw-r--r--.  1 root root       817 Aug 10  2021 xattr.conf
+-rw-r--r--.  1 root root     28974 Aug 10  2021 brltty.conf
+drwxr-xr-x.  2 root root         6 Aug 10  2021 cron.weekly
+-rw-r--r--.  1 root root       451 Aug 10  2021 crontab
+drwxr-xr-x.  2 root root         6 Aug 10  2021 cron.monthly
+drwxr-xr-x.  2 root root        22 Aug 10  2021 cron.hourly
+-rw-r--r--.  1 root root      4760 Aug 10  2021 enscript.cfg
+-rw-r--r--.  1 root root        94 Aug 10  2021 GREP_COLORS
+-rw-r--r--.  1 root root        68 Aug 10  2021 papersize
+drwxr-xr-x.  2 root root         6 Aug 10  2021 libpaper.d
+-rw-r--r--.  1 root root       624 Aug 10  2021 updatedb.conf
+-rw-r--r--.  1 root root      2872 Aug 10  2021 pinforc
+-rw-r--r--.  1 root root      1362 Aug 10  2021 pbm2ppa.conf
+-rw-r--r--.  1 root root      6300 Aug 10  2021 pnm2ppa.conf
+drwxr-xr-x.  2 root root         6 Aug 10  2021 popt.d
+-rw-r--r--.  1 root root      1523 Aug 10  2021 usb_modeswitch.conf
+-rw-r--r--.  1 root root        20 Aug 20  2021 fprintd.conf
+-rw-r--r--.  1 root root         1 Apr  4  2022 at.deny
+drwxr-xr-x.  2 root root         6 Sep 12  2022 sasl2
+-rw-r--r--.  1 root root      5235 Sep 20  2022 man_db.conf
+drwxr-xr-x.  2 root root         6 Oct 17  2022 request-key.d
+-rw-r--r--.  1 root root      1787 Oct 17  2022 request-key.conf
+drwxr-xr-x.  2 root root         6 Oct 17  2022 keyutils
+-rw-r--r--.  1 root root       833 Feb 11  2023 appstream.conf
+drwxr-xr-x.  2 root root         6 Apr 26  2023 gnupg
+drwxr-xr-x.  2 root root         6 Aug 21  2023 terminfo
+-rw-r--r--.  1 root root       111 Nov 29  2023 magic
+-rw-r--r--.  1 root root      1208 Dec 13  2023 mke2fs.conf
+-rw-r--r--.  1 root root      3380 Jan  8  2024 rsyslog.conf
+drwxr-xr-x.  2 root root         6 Jan  8  2024 rsyslog.d
+-rw-r-----.  1 root root      3181 Jan 24  2024 sudo-ldap.conf
+-r--r-----.  1 root root      4328 Jan 24  2024 sudoers
+drwxr-x---.  2 root root         6 Jan 24  2024 sudoers.d
+-rw-r-----.  1 root root      3983 Jan 24  2024 sudo.conf
+-rw-r--r--.  1 root root      1899 Feb  7  2024 profile
+-rw-r--r--.  1 root root         0 Feb  7  2024 environment
+-rw-r--r--.  1 root root      1112 Feb  7  2024 csh.login
+-rw-r--r--.  1 root root      1401 Feb  7  2024 csh.cshrc
+-rw-r--r--.  1 root root      2658 Feb  7  2024 bashrc
+-rw-r--r--.  1 root root       216 Feb 20  2024 sestatus.conf
+drwxr-xr-x.  2 root dnsmasq      6 Mar 15  2024 dnsmasq.d
+-rw-r--r--.  1 root dnsmasq  27839 Mar 15  2024 dnsmasq.conf
+-rw-r--r--.  1 root root        23 Mar 20  2024 system-release-cpe
+lrwxrwxrwx.  1 root root        14 Mar 20  2024 system-release -> centos-release
+lrwxrwxrwx.  1 root root        14 Mar 20  2024 redhat-release -> centos-release
+lrwxrwxrwx.  1 root root        21 Mar 20  2024 os-release -> ../usr/lib/os-release
+-rw-r--r--.  1 root root        22 Mar 20  2024 issue.net
+-rw-r--r--.  1 root root        23 Mar 20  2024 issue
+-rw-r--r--.  1 root root        24 Mar 20  2024 centos-release
+-rw-r--r--.  1 root root       458 Apr 17  2024 rsyncd.conf
+lrwxrwxrwx.  1 root root        56 Jun  6 23:27 favicon.png -> /usr/share/icons/hicolor/16x16/apps/fedora-logo-icon.png
+-rw-r--r--.  1 root root        55 Jun 17 18:22 asound.conf
+-rw-r--r--.  1 root root        38 Jun 18 04:39 fuse.conf
+drwxr-xr-x.  2 root root         6 Jun 25 19:53 statetab.d
+-rw-r--r--.  1 root root     10373 Jul  4 17:52 nanorc
+-rw-r--r--.  1 root root      4925 Jul 15 16:46 wgetrc
+-rw-r-----.  1 root root       191 Jul 30 01:05 libaudit.conf
+-rw-r--r--.  1 root root       767 Jul 30 18:30 netconfig
+-rw-r--r--.  1 root root       535 Jul 30 18:30 bindresvport.blacklist
+drwxr-xr-x.  2 root root         6 Aug  1 20:49 gcrypt
+-rw-r--r--.  1 root root      1184 Aug  5 21:09 virc
+-rw-r--r--.  1 root root      4017 Aug  5 21:09 vimrc
+drwxr-xr-x.  2 root root         6 Aug 19 15:27 dracut.conf.d
+-rw-r--r--.  1 root root       117 Aug 19 15:27 dracut.conf
+drwxr-xr-x.  3 root root        23 Sep  4 17:37 flatpak
+-rw-r--r--.  1 root root       375 Sep  5 19:42 trusted-key.key
+-rw-r--r--.  1 root root         0 Sep 26 18:25 cron.deny
+-rw-r--r--.  1 root root       541 Sep 26 18:25 anacrontab
+-rw-r--r--.  1 root root      2108 Oct  1 20:18 nsswitch.conf.bak
+drwxr-xr-x.  2 root root        22 Oct 15 18:47 tmpfiles.d
+drwxr-xr-x.  2 root root         6 Oct 15 18:47 modules-load.d
+drwxr-xr-x.  2 root root         6 Oct 15 18:47 binfmt.d
+-rw-r--r--.  1 root root       449 Oct 15 18:47 sysctl.conf
+lrwxrwxrwx.  1 root root        13 Oct 15 18:47 rc.local -> rc.d/rc.local
+-rw-r--r--.  1 root root       490 Oct 15 18:47 inittab
+lrwxrwxrwx.  1 root root        22 Oct 17 17:32 grub2.cfg -> ../boot/grub2/grub.cfg
+-rw-r--r--.  1 root root       880 Oct 17 21:33 krb5.conf
+drwxr-xr-x.  2 root root        83 Oct 17 21:35 krb5.conf.d
+drwxr-xr-x.  3 root root        20 Oct 17 21:35 gss
+drwx------.  4 sssd sssd        31 Oct 21 18:47 sssd
+drwxr-xr-x.  2 root root        35 Oct 21 18:47 rwtab.d
+drwxr-xr-x.  2 root root        26 Oct 21 18:47 cifs-utils
+lrwxrwxrwx.  1 root root        12 Oct 21 20:52 yum.conf -> dnf/dnf.conf
+drwxr-xr-x.  2 root root      4096 Oct 22 15:50 logrotate.d
+drwxr-xr-x.  3 root root        21 Oct 25 19:47 pkcs11
+drwxr-xr-x.  2 root root      4096 Oct 30 03:19 libibverbs.d
+-rw-r--r--.  1 root root      4755 Oct 30 19:19 DIR_COLORS.lightbgcolor
+-rw-r--r--.  1 root root      4673 Oct 30 19:19 DIR_COLORS
+drwxr-xr-x.  7 root root       134 Nov  4 19:35 NetworkManager
+drwxr-xr-x.  3 root root        18 Nov  5 01:28 firefox
+drwxr-xr-x.  2 root root      4096 Nov  5 13:39 pam.d
+drwxr-xr-x.  2 root root        21 Nov  5 13:39 motd.d
+drwxr-xr-x.  7 root root      4096 Nov  5 13:39 security
+-rw-r--r--.  1 root root      7779 Nov  5 18:48 login.defs
+drwxr-xr-x.  3 root root        23 Nov  5 21:35 ostree
+-rw-r--r--.  1 root root      5122 Nov  6 09:21 makedumpfile.conf.sample
+drwxr-xr-x.  4 root root        33 Nov  6 09:21 kdump
+drwxr-xr-x.  2 root root         6 Nov  6 21:55 rpm
+drwxr-xr-x.  2 root root        39 Nov  8 08:28 ld.so.conf.d
+-rw-r-----.  1 root chrony     540 Nov 11 15:14 chrony.keys
+-rw-r--r--.  1 root root      1371 Nov 11 15:14 chrony.conf
+drwxr-xr-x.  2 root root         6 Nov 12 01:48 multipath
+drwxr-xr-x.  3 root root        79 Nov 13 01:08 selinux
+drwxr-xr-x.  2 root root        35 Nov 13 20:14 libnl
+-rw-r--r--.  1 root root       655 Nov 15 13:21 fstab
+-rw-------.  1 root root         0 Nov 15 13:21 crypttab
+drwxr-xr-x.  6 root root        70 Nov 15 13:22 libreport
+drwxr-xr-x.  8 root root       128 Nov 15 13:22 dnf
+drwxr-xr-x.  2 root root        24 Nov 15 13:22 hp
+drwxr-xr-x.  2 root root        62 Nov 15 13:22 libssh
+drwxr-xr-x.  5 root root        52 Nov 15 13:22 pm
+drwxr-xr-x.  3 root root        78 Nov 15 13:22 skel
+drwxr-xr-x.  6 root root        81 Nov 15 13:22 crypto-policies
+drwxr-xr-x.  3 root root        21 Nov 15 13:22 sgml
+drwxr-xr-x.  4 root root        40 Nov 15 13:22 groff
+drwxr-xr-x.  3 root root        26 Nov 15 13:22 glvnd
+drwxr-xr-x.  3 root root        37 Nov 15 13:22 egl
+drwxr-xr-x.  2 root root        77 Nov 15 13:22 ssl
+drwxr-xr-x.  5 root root        67 Nov 15 13:22 vulkan
+drwxr-xr-x.  6 root root        86 Nov 15 13:23 sos
+drwxr-xr-x.  3 root root        38 Nov 15 13:23 fonts
+drwxr-xr-x.  2 root root       159 Nov 15 13:23 iproute2
+drwxr-xr-x.  3 root root        36 Nov 15 13:23 rc.d
+-r--r--r--.  1 root root        33 Nov 15 13:23 machine-id
+lrwxrwxrwx.  1 root root        19 Nov 15 13:23 mtab -> ../proc/self/mounts
+drwxr-xr-x.  4 root root        78 Nov 15 13:23 dbus-1
+drwxr-xr-x.  5 root root        72 Nov 15 13:23 polkit-1
+drwxr-xr-x.  4 root root        31 Nov 15 13:23 dconf
+drwxr-xr-x.  4 root root        71 Nov 15 13:23 avahi
+drwxr-xr-x.  3 root root        28 Nov 15 13:23 accountsservice
+drwxr-xr-x.  2 root root        23 Nov 15 13:23 bluetooth
+drwxr-xr-x.  2 root root        21 Nov 15 13:23 cron.d
+drwxr-xr-x.  2 root root        25 Nov 15 13:23 iscsi
+drwxr-xr-x.  6 root root       125 Nov 15 13:23 xdg
+drwxr-xr-x.  3 root root        20 Nov 15 13:23 libblockdev
+drwxr-xr-x.  2 root root        33 Nov 15 13:23 wpa_supplicant
+drwxr-xr-x.  3 root root        43 Nov 15 13:23 lsm
+drwx------.  3 root root        66 Nov 15 13:23 nftables
+drwxr-xr-x.  3 root root        27 Nov 15 13:23 pkgconfig
+drwxr-xr-x.  3 root root        36 Nov 15 13:23 xml
+drwxr-xr-x.  2 root root        26 Nov 15 13:23 geoclue
+drwxr-xr-x.  3 root root        36 Nov 15 13:23 openldap
+drwxr-xr-x.  3 root root        51 Nov 15 13:23 tpm2-tss
+drwxr-xr-x.  4 root root       166 Nov 15 13:23 systemd
+drwxr-xr-x.  2 root root        28 Nov 15 13:23 sysctl.d
+drwxr-xr-x.  2 root root        25 Nov 15 13:23 UPower
+drwxr-xr-x.  2 root root        28 Nov 15 13:23 plymouth
+drwxr-xr-x.  2 root root        27 Nov 15 13:24 issue.d
+drwxr-xr-x.  4 root root        66 Nov 15 13:24 cockpit
+drwxr-xr-x.  3 root root        17 Nov 15 13:24 keys
+drwxr-xr-x.  2 root root        60 Nov 15 13:24 udisks2
+drwxr-xr-x.  4 root root        64 Nov 15 13:24 fwupd
+drwxr-xr-x.  2 root root        33 Nov 15 13:24 setroubleshoot
+drwxr-x---.  4 root root       100 Nov 15 13:24 audit
+drwxr-xr-x.  3 root root      4096 Nov 15 13:24 sane.d
+drwxr-xr-x.  2 root root        25 Nov 15 13:24 pulse
+drwxr-xr-x.  4 root root        56 Nov 15 13:24 speech-dispatcher
+drwxr-xr-x. 10 root root       123 Nov 15 13:24 pki
+drwxr-xr-x.  2 root root        28 Nov 15 13:24 foomatic
+drwxr-xr-x.  4 root root      4096 Nov 15 13:24 vmware-tools
+drwxr-xr-x.  6 root root        81 Nov 15 13:24 wireplumber
+drwxr-xr-x.  2 root root        34 Nov 15 13:25 cupshelpers
+-rw-r-----.  1 root brlapi      33 Nov 15 13:25 brlapi.key
+drwxr-xr-x.  7 root root       121 Nov 15 13:25 X11
+drwxr-xr-x.  7 root root        84 Nov 15 13:25 brltty
+drwxr-xr-x.  6 root root       107 Nov 15 13:25 gdm
+drwxr-xr-x.  7 root root       154 Nov 15 13:25 containers
+drwxr-xr-x.  3 root root        36 Nov 15 13:25 chromium
+drwxr-xr-x.  3 root root        20 Nov 15 13:25 opt
+drwxr-xr-x.  3 root root        50 Nov 15 13:25 qemu-ga
+drwxr-xr-x.  2 root root        57 Nov 15 13:25 yum
+drwxr-xr-x.  2 root root        76 Nov 15 13:25 PackageKit
+drwxr-xr-x.  3 root root       136 Nov 15 13:25 tuned
+drwxr-xr-x.  2 root root        54 Nov 15 13:25 modprobe.d
+drwxr-x---.  8 root root       149 Nov 15 13:25 firewalld
+drwxr-xr-x.  3 root root        24 Nov 15 13:25 dhcp
+drwxr-xr-x.  3 root root        41 Nov 15 13:25 mcelog
+drwxr-xr-x.  3 root root        32 Nov 15 13:25 microcode_ctl
+drwxr-xr-x.  3 root root        74 Nov 15 13:25 smartmontools
+drwxr-xr-x.  3 root root        65 Nov 15 13:25 alsa
+drwxr-xr-x.  3 root root        27 Nov 15 13:25 ras
+drwxr-xr-x.  2 root root        57 Nov 15 13:25 nvme
+drwx------.  2 root root      4096 Nov 15 13:27 grub.d
+drwxr-xr-x.  3 root root        38 Nov 15 13:28 kernel
+lrwxrwxrwx.  1 root root        29 Nov 15 13:28 nsswitch.conf -> /etc/authselect/nsswitch.conf
+drwxr-xr-x.  3 root root      4096 Nov 15 13:28 authselect
+lrwxrwxrwx.  1 root root        34 Nov 15 13:28 localtime -> ../usr/share/zoneinfo/Asia/Kolkata
+-rw-r--r--.  1 root root        16 Nov 15 13:28 adjtime
+-rw-r--r--.  1 root root        19 Nov 15 13:28 locale.conf
+-rw-r--r--.  1 root root        32 Nov 15 13:28 vconsole.conf
+-rw-r--r--.  1 root root         1 Nov 15 13:28 hostname
+drwxr-xr-x.  4 root root        68 Nov 15 13:33 udev
+drwxr-xr-x.  4 root root      4096 Nov 15 13:33 ssh
+drwxr-xr-x.  2 root root        61 Nov 15 13:45 samba
+-rw-r--r--.  1 root root      8979 Nov 15 13:45 kdump.conf
+drwxr-xr-x.  7 root root       115 Nov 15 13:45 lvm
+drwxr-xr-x.  2 root root        27 Nov 15 13:50 cron.daily
+drwxr-xr-x.  2 root root        77 Nov 15 13:50 yum.repos.d
+drwxr-xr-x.  2 root root      4096 Nov 15 13:50 alternatives
+drwxr-xr-x.  2 root root        54 Nov 15 14:43 default
+drwxr-xr-x.  3 root root      4096 Nov 19 10:39 sysconfig
+drwxr-xr-x.  2 root root        27 Nov 19 10:42 debuginfod
+drwxr-xr-x.  2 root root      4096 Nov 19 10:42 profile.d
+drwxr-xr-x.  2 root root        40 Nov 19 10:43 depmod.d
+drwxr-xr-x.  2 root root       124 Nov 19 10:43 bash_completion.d
+-rw-r--r--.  1 root root     39627 Nov 19 10:52 ld.so.cache
+-rw-r--r--.  1 root root         0 Nov 19 14:03 abhiram.txt
+-rw-r--r--.  1 root root        71 Nov 30 11:05 resolv.conf
+drwxr-xr-x.  4 root lp        4096 Nov 30 11:06 cups
+-rw-r--r--.  1 root root        40 Nov 30 11:29 subuid-
+-rw-r--r--.  1 root root        40 Nov 30 11:29 subgid-
+----------.  1 root root      1128 Nov 30 11:29 shadow-
+-rw-r--r--.  1 root root      2006 Nov 30 11:29 passwd-
+----------.  1 root root       630 Nov 30 11:31 gshadow-
+-rw-r--r--.  1 root root       784 Nov 30 11:31 group-
+-rw-r--r--.  1 root root      1965 Nov 30 11:31 passwd
+----------.  1 root root      1100 Nov 30 11:31 shadow
+-rw-r--r--.  1 root root        21 Nov 30 11:31 subuid
+-rw-r--r--.  1 root root        21 Nov 30 11:31 subgid
+-rw-r--r--.  1 root root       800 Nov 30 11:46 group
+----------.  1 root root       642 Nov 30 11:46 gshadow
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# ls -l group
+-rw-r--r--. 1 root root 800 Nov 30 11:46 group
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# cat group
+root:x:0:
+bin:x:1:
+daemon:x:2:
+sys:x:3:
+adm:x:4:
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mem:x:8:
+kmem:x:9:
+wheel:x:10:abhiram
+cdrom:x:11:
+mail:x:12:
+man:x:15:
+dialout:x:18:
+floppy:x:19:
+games:x:20:
+tape:x:33:
+video:x:39:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+users:x:100:
+nobody:x:65534:
+utmp:x:22:
+utempter:x:35:
+input:x:999:
+kvm:x:36:
+render:x:998:
+systemd-journal:x:190:
+systemd-coredump:x:997:
+dbus:x:81:
+polkitd:x:996:
+avahi:x:70:
+printadmin:x:995:
+ssh_keys:x:101:
+rtkit:x:172:
+sgx:x:994:
+libstoragemgmt:x:993:
+geoclue:x:992:
+tss:x:59:clevis
+cockpit-wsinstance:x:991:
+colord:x:990:
+sssd:x:989:
+clevis:x:988:
+setroubleshoot:x:987:
+pipewire:x:986:
+flatpak:x:985:
+brlapi:x:984:
+gdm:x:42:
+gnome-initial-setup:x:983:
+sshd:x:74:
+chrony:x:982:
+slocate:x:21:
+dnsmasq:x:981:
+tcpdump:x:72:
+abhiram:x:1000:
+aravind:x:1001:
+[root@localhost etc]# 
+[root@localhost etc]# 
