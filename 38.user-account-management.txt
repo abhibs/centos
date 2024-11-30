@@ -106,3 +106,8 @@ total 0
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# id anjan
+id: ‘anjan’: no such user
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
