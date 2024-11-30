@@ -819,3 +819,123 @@ anushree:x:1002:1002::/home/anushree:/bin/bash
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# whoami
+root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# cat /etc/group
+root:x:0:
+bin:x:1:
+daemon:x:2:
+sys:x:3:
+adm:x:4:
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mem:x:8:
+kmem:x:9:
+wheel:x:10:abhiram
+cdrom:x:11:
+mail:x:12:
+man:x:15:
+dialout:x:18:
+floppy:x:19:
+games:x:20:
+tape:x:33:
+video:x:39:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+users:x:100:
+nobody:x:65534:
+utmp:x:22:
+utempter:x:35:
+input:x:999:
+kvm:x:36:
+render:x:998:
+systemd-journal:x:190:
+systemd-coredump:x:997:
+dbus:x:81:
+polkitd:x:996:
+avahi:x:70:
+printadmin:x:995:
+ssh_keys:x:101:
+rtkit:x:172:
+sgx:x:994:
+libstoragemgmt:x:993:
+geoclue:x:992:
+tss:x:59:clevis
+cockpit-wsinstance:x:991:
+colord:x:990:
+sssd:x:989:
+clevis:x:988:
+setroubleshoot:x:987:
+pipewire:x:986:
+flatpak:x:985:
+brlapi:x:984:
+gdm:x:42:
+gnome-initial-setup:x:983:
+sshd:x:74:
+chrony:x:982:
+slocate:x:21:
+dnsmasq:x:981:
+tcpdump:x:72:
+abhiram:x:1000:
+anitha:x:1001:anushree
+anushree:x:1002:
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# whoami
+root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# cat /etc/shadow
+root:$6$pTUA8RmUjpSAyTpo$qAxad2f/zbFR0s8QS07uRKjeHzATp4xSqgxfxXAczkVORYtbbj9QtZ53thqxCHfVNF4vJgj3gHOmv8TrdiK1D0::0:99999:7:::
+bin:*:19760:0:99999:7:::
+daemon:*:19760:0:99999:7:::
+adm:*:19760:0:99999:7:::
+lp:*:19760:0:99999:7:::
+sync:*:19760:0:99999:7:::
+shutdown:*:19760:0:99999:7:::
+halt:*:19760:0:99999:7:::
+mail:*:19760:0:99999:7:::
+operator:*:19760:0:99999:7:::
+games:*:19760:0:99999:7:::
+ftp:*:19760:0:99999:7:::
+nobody:*:19760:0:99999:7:::
+systemd-coredump:!!:20042::::::
+dbus:!!:20042::::::
+polkitd:!!:20042::::::
+avahi:!!:20042::::::
+rtkit:!!:20042::::::
+libstoragemgmt:!*:20042::::::
+geoclue:!!:20042::::::
+tss:!!:20042::::::
+cockpit-wsinstance:!!:20042::::::
+colord:!!:20042::::::
+sssd:!!:20042::::::
+clevis:!!:20042::::::
+setroubleshoot:!!:20042::::::
+pipewire:!!:20042::::::
+flatpak:!!:20042::::::
+gdm:!!:20042::::::
+gnome-initial-setup:!!:20042::::::
+sshd:!!:20042::::::
+chrony:!!:20042::::::
+dnsmasq:!!:20042::::::
+tcpdump:!!:20042::::::
+abhiram:$6$rounds=100000$ihxLRlXozGsJb9f.$KNc6UhTw3fv5fbZGLsmLaHwIRoBMsn3N026IPKlK/XDONqpvSa3/3p/bU0lg4bq.mndCs37L7UXSwDjgf.afV1:20043:0:99999:7:::
+anitha:!!:20057:0:99999:7:::
+anushree:!!:20057:0:99999:7:::
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
