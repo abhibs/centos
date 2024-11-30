@@ -111,3 +111,20 @@ id: ‘anjan’: no such user
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# cd /home
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# pwd
+/home
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# ls -ltr
+total 4
+drwx------. 16 abhiram abhiram 4096 Nov 30 10:27 abhiram
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# 
