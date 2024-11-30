@@ -738,3 +738,32 @@ anushree:x:1002:
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# whoami
+root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# cd /home
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# ls -ltr
+total 4
+drwx------. 16 abhiram  abhiram  4096 Nov 30 12:04 abhiram
+drwx------.  3 anitha   anitha     78 Nov 30 12:51 anitha
+drwx------.  3 anushree anushree   78 Nov 30 13:08 anushree
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# chgrp -R anushree anitha
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# ls -ltr
+total 4
+drwx------. 16 abhiram  abhiram  4096 Nov 30 12:04 abhiram
+drwx------.  3 anitha   anushree   78 Nov 30 12:51 anitha
+drwx------.  3 anushree anushree   78 Nov 30 13:08 anushree
+[root@localhost home]# 
+[root@localhost home]# 
+[root@localhost home]# 
