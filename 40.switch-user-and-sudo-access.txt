@@ -79,3 +79,16 @@ lakshmi
 [lakshmi@localhost ~]$ 
 [lakshmi@localhost ~]$ 
 [lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ exit
+logout
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# whoami
+root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
