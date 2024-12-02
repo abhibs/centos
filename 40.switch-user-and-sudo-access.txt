@@ -140,3 +140,116 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# dmidecode
+# dmidecode 3.6
+Getting SMBIOS data from sysfs.
+SMBIOS 2.3 present.
+510 structures occupying 17307 bytes.
+Table at 0x000F93D0.
+
+Handle 0x0000, DMI type 0, 20 bytes
+BIOS Information
+	Vendor: American Megatrends Inc.
+	Version: 090008 
+	Release Date: 12/07/2018
+	Address: 0xF0000
+	Runtime Size: 64 kB
+	ROM Size: 256 kB
+	Characteristics:
+		ISA is supported
+		PCI is supported
+		PNP is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		ESCD support is available
+		Boot from CD is supported
+		Selectable boot is supported
+		BIOS ROM is socketed
+		EDD is supported
+		5.25"/360 kB floppy services are supported (int 13h)
+		5.25"/1.2 MB floppy services are supported (int 13h)
+		3.5"/720 kB floppy services are supported (int 13h)
+		3.5"/2.88 MB floppy services are supported (int 13h)
+		Print screen service is supported (int 5h)
+		8042 keyboard services are supported (int 9h)
+		Serial services are supported (int 14h)
+		Printer services are supported (int 17h)
+		CGA/mono video services are supported (int 10h)
+		AGP is supported
+		LS-120 boot is supported
+		ATAPI Zip drive boot is supported
+		BIOS boot specification is supported
+
+Handle 0x0001, DMI type 1, 25 bytes
+System Information
+	Manufacturer: Microsoft Corporation
+	Product Name: Virtual Machine
+	Version: 7.0
+	Serial Number: 1046-7409-1793-5500-9865-7833-52
+	UUID: 6f2467e2-1b54-b946-9062-d62e12790274
+	Wake-up Type: Power Switch
+
+Handle 0x0002, DMI type 2, 8 bytes
+Base Board Information
+	Manufacturer: Microsoft Corporation
+	Product Name: Virtual Machine
+	Version: 7.0
+	Serial Number: 1046-7409-1793-5500-9865-7833-52
+
+Handle 0x0003, DMI type 3, 17 bytes
+Chassis Information
+	Manufacturer: Microsoft Corporation
+	Type: Desktop
+	Lock: Not Present
+	Version: 7.0
+	Serial Number: 1046-7409-1793-5500-9865-7833-52
+	Asset Tag: 1046-7409-1793-5500-9865-7833-52
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Other
+	Security Status: Other
+	OEM Information: 0x00000000
+
+Handle 0x0004, DMI type 11, 5 bytes
+OEM Strings
+	String 1: [MS_VM_CERT/SHA1/9b80ca0d5dd061ec9da4e494f4c3fd1196270c22]
+	String 2: 00000000000000000000000000000000
+	String 3: To be filed by MSFT
+
+Invalid entry length (0). DMI table is broken! Stop.
+
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# fdisk -l
+Disk /dev/sda: 127 GiB, 136365211648 bytes, 266338304 sectors
+Disk model: Virtual Disk    
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: dos
+Disk identifier: 0x627476cd
+
+Device     Boot   Start       End   Sectors  Size Id Type
+/dev/sda1  *       2048   2099199   2097152    1G 83 Linux
+/dev/sda2       2099200 266338303 264239104  126G 8e Linux LVM
+
+
+Disk /dev/mapper/cs-root: 70 GiB, 75161927680 bytes, 146800640 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/mapper/cs-swap: 3.95 GiB, 4236247040 bytes, 8273920 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/mapper/cs-home: 52.05 GiB, 55889100800 bytes, 109158400 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
