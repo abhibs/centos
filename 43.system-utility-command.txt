@@ -35,3 +35,12 @@ Linux localhost.localdomain 5.14.0-529.el9.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Nov
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ which pwd
+/usr/bin/pwd
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ which date
+/usr/bin/date
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
