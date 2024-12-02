@@ -41,3 +41,7 @@ Dec 02 16:48:11 localhost systemd[1]: Started firewalld - dynamic firewall daemo
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# systemctl stop firewalld.service
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
