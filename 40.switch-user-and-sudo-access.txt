@@ -40,3 +40,8 @@ lakshmi
 [lakshmi@localhost ~]$ 
 [lakshmi@localhost ~]$ 
 [lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ exit
+logout
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
