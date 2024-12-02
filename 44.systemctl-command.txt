@@ -63,3 +63,9 @@ Dec 02 17:04:38 localhost.localdomain systemd[1]: Stopped firewalld - dynamic fi
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# systemctl disable firewalld.service
+Removed "/etc/systemd/system/multi-user.target.wants/firewalld.service".
+Removed "/etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service".
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
