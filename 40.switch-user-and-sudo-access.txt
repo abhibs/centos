@@ -11,3 +11,16 @@ localhost.localdomain
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd /home
+[abhiram@localhost home]$ 
+[abhiram@localhost home]$ 
+[abhiram@localhost home]$ ls -ltr
+total 4
+drwx------.  3 anitha   anushree   78 Nov 30 12:51 anitha
+drwx------.  3 anushree anushree   78 Nov 30 13:08 anushree
+drwx------.  3 manohar  manohar    78 Nov 30 16:57 manohar
+drwx------. 16 abhiram  abhiram  4096 Dec  2 10:24 abhiram
+drwx------.  4 lakshmi  abhiram   113 Dec  2 10:28 lakshmi
+[abhiram@localhost home]$ 
+[abhiram@localhost home]$ 
+[abhiram@localhost home]$ 
