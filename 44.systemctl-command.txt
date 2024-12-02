@@ -45,3 +45,21 @@ Dec 02 16:48:11 localhost systemd[1]: Started firewalld - dynamic firewall daemo
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# systemctl status firewalld.service
+○ firewalld.service - firewalld - dynamic firewall daemon
+     Loaded: loaded (/usr/lib/systemd/system/firewalld.service; enabled; preset: enabled)
+     Active: inactive (dead) since Mon 2024-12-02 17:04:38 IST; 1min 25s ago
+   Duration: 16min 26.458s
+       Docs: man:firewalld(1)
+    Process: 883 ExecStart=/usr/sbin/firewalld --nofork --nopid $FIREWALLD_ARGS (code=exited, status=0/SUCCESS)
+   Main PID: 883 (code=exited, status=0/SUCCESS)
+        CPU: 277ms
+
+Dec 02 16:48:10 localhost systemd[1]: Starting firewalld - dynamic firewall daemon...
+Dec 02 16:48:11 localhost systemd[1]: Started firewalld - dynamic firewall daemon.
+Dec 02 17:04:38 localhost.localdomain systemd[1]: Stopping firewalld - dynamic firewall daemon...
+Dec 02 17:04:38 localhost.localdomain systemd[1]: firewalld.service: Deactivated successfully.
+Dec 02 17:04:38 localhost.localdomain systemd[1]: Stopped firewalld - dynamic firewall daemon.
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
