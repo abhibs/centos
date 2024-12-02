@@ -11,3 +11,10 @@ localhost.localdomain
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ps
+    PID TTY          TIME CMD
+   3150 pts/0    00:00:00 bash
+   4199 pts/0    00:00:00 ps
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
