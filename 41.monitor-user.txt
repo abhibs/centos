@@ -226,3 +226,10 @@ abhiram  tty2      09:56    3:21m  0.01s  0.01s /usr/libexec/gnome-session-binar
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pinky
+Login    Name                 TTY      Idle   When             Where
+abhiram  Abhiram             ?seat0    ?????  2024-12-02 09:56 login screen
+abhiram  Abhiram              tty2     03:24  2024-12-02 09:56 tty2
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
