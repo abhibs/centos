@@ -24,3 +24,19 @@ drwx------.  4 lakshmi  abhiram   113 Dec  2 10:28 lakshmi
 [abhiram@localhost home]$ 
 [abhiram@localhost home]$ 
 [abhiram@localhost home]$ 
+[abhiram@localhost home]$ cd
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ su - lakshmi
+Password: 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ whoami
+lakshmi
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ pwd
+/home/lakshmi
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
