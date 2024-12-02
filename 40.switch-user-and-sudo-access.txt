@@ -408,4 +408,12 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# visudo
+## Allow root to run any commands anywhere 
+root    ALL=(ALL)       ALL
+abhiram ALL=(ALL)       ALL
+:wq!
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
 
