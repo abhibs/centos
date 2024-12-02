@@ -253,3 +253,23 @@ I/O size (minimum/optimal): 4096 bytes / 4096 bytes
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# whoami
+root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# logout
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ pwd
+/home/abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
