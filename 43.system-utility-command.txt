@@ -26,3 +26,12 @@ localhost.localdomain
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ uname
+Linux
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ uname -a
+Linux localhost.localdomain 5.14.0-529.el9.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Nov 14 14:09:02 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
