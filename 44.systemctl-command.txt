@@ -110,3 +110,20 @@ Created symlink /etc/systemd/system/multi-user.target.wants/firewalld.service �
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# systemctl status firewalld.service
+● firewalld.service - firewalld - dynamic firewall daemon
+     Loaded: loaded (/usr/lib/systemd/system/firewalld.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2024-12-02 17:14:58 IST; 6min ago
+       Docs: man:firewalld(1)
+   Main PID: 6262 (firewalld)
+      Tasks: 2 (limit: 23011)
+     Memory: 22.9M
+        CPU: 212ms
+     CGroup: /system.slice/firewalld.service
+             └─6262 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+
+Dec 02 17:14:58 localhost.localdomain systemd[1]: Starting firewalld - dynamic firewall daemon...
+Dec 02 17:14:58 localhost.localdomain systemd[1]: Started firewalld - dynamic firewall daemon.
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
