@@ -942,3 +942,10 @@ abhiram     4901    3150  0 18:18 pts/0    00:00:00 ps -ef
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ps -ef | grep 3300
+abhiram     3300    2711  0 17:53 ?        00:00:01 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2828 --enable-crash-reporter=93df065b-3c4e-42da-87b2-2bb470ae1331,no_channel --user-data-dir=/home/abhiram/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10718090571378922591,17693591464286122402,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+abhiram     5552    3150  0 18:24 pts/0    00:00:00 grep --color=auto 3300
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+
