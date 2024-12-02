@@ -210,3 +210,11 @@ wtmp
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ last | awk '{print $1}' | sort | uniq
+
+abhiram
+reboot
+wtmp
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
