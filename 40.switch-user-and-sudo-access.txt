@@ -104,3 +104,18 @@ abhiram
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ dmidecode
+# dmidecode 3.6
+/sys/firmware/dmi/tables/smbios_entry_point: Permission denied
+Scanning /dev/mem for entry point.
+Can't read memory from /dev/mem
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ fdisk -l
+fdisk: cannot open /dev/sda: Permission denied
+fdisk: cannot open /dev/mapper/cs-root: Permission denied
+fdisk: cannot open /dev/mapper/cs-swap: Permission denied
+fdisk: cannot open /dev/mapper/cs-home: Permission denied
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
