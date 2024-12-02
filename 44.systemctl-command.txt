@@ -83,3 +83,7 @@ Dec 02 17:04:38 localhost.localdomain systemd[1]: Stopped firewalld - dynamic fi
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# systemctl restart firewalld.service
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
