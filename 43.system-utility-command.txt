@@ -44,3 +44,47 @@ Linux localhost.localdomain 5.14.0-529.el9.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Nov
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cd /usr/bin
+[abhiram@localhost bin]$ 
+[abhiram@localhost bin]$ 
+[abhiram@localhost bin]$ ls -l | more
+total 210184
+-rwxr-xr-x. 1 root root       53032 Oct 30 19:21 [
+-rwxr-xr-x. 1 root root       33416 Nov  1  2021 ac
+-rwxr-xr-x. 1 root root       24000 Jul  4 13:41 aconnect
+-rwxr-xr-x. 1 root root       28584 Oct 28 19:29 addr2line
+-rwxr-xr-x. 1 root root      293272 Jan  2  2024 adwaita-1-demo
+-rwxr-xr-x. 1 root root      154416 Aug 10  2021 airscan-discover
+-rwxr-xr-x. 1 root root          33 Feb 15  2024 alias
+-rwxr-xr-x. 1 root root       86912 Jul  4 13:41 alsaloop
+-rwxr-xr-x. 1 root root       84104 Jul  4 13:41 alsamixer
+-rwxr-xr-x. 1 root root         127 Jul  4 13:40 alsaunmute
+-rwxr-xr-x. 1 root root       32152 Jul  4 13:41 amidi
+-rwxr-xr-x. 1 root root       61272 Jul  4 13:41 amixer
+-rwxr-xr-x. 1 root root       81720 Jul  4 13:41 aplay
+-rwxr-xr-x. 1 root root       28096 Jul  4 13:41 aplaymidi
+-rwxr-xr-x. 1 root root      155880 Apr 25  2023 appstreamcli
+-rwxr-xr-x. 1 root root       32216 Apr 26  2024 appstream-compose
+-rwxr-xr-x. 1 root root      119368 Apr 26  2024 appstream-util
+lrwxrwxrwx. 1 root root          25 Nov 15 13:25 apropos -> /etc/alternatives/apropos
+lrwxrwxrwx. 1 root root           6 Sep 20  2022 apropos.man-db -> whatis
+-rwxr-xr-x. 1 root root       57504 Oct 28 19:29 ar
+-rwxr-xr-x. 1 root root       32416 Oct 30 19:21 arch
+lrwxrwxrwx. 1 root root           5 Jul  4 13:41 arecord -> aplay
+-rwxr-xr-x. 1 root root       32240 Jul  4 13:41 arecordmidi
+-rwxr-xr-x. 1 root root       15648 Sep  5 19:42 arpaname
+-rwxr-xr-x. 1 root root       28072 Sep  6 18:08 arping
+-rwxr-xr-x. 1 root root      727544 Oct 28 19:29 as
+-rwxr-xr-x. 1 root root       28104 Jul  4 13:41 aseqdump
+-rwxr-xr-x. 1 root root       28128 Jul  4 13:41 aseqnet
+-rwxr-xr-x. 1 root root       23968 Jul  4 13:41 aseqsend
+-rwxr-xr-x. 1 root root       40592 Jun 17 18:24 aserver
+-rwsr-xr-x. 1 root root       57928 Apr  4  2022 at
+lrwxrwxrwx. 1 root root           2 Apr  4  2022 atq -> at
+lrwxrwxrwx. 1 root root           2 Apr  4  2022 atrm -> at
+-rwxr-xr-x. 1 root root       16080 Aug 10  2021 attr
+-rwxr-xr-x. 1 root root       15064 Feb 20  2024 audit2allow
+lrwxrwxrwx. 1 root root          11 Feb 20  2024 audit2why -> audit2allow
+-rwxr-xr-x. 1 root root       19856 Aug  1 18:12 aulast
+-rwxr-xr-x. 1 root root       15696 Aug  1 18:12 aulastlog
+--More--
