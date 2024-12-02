@@ -233,3 +233,13 @@ abhiram  Abhiram              tty2     03:24  2024-12-02 09:56 tty2
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ id
+uid=1000(abhiram) gid=1000(abhiram) groups=1000(abhiram),10(wheel) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ id lakshmi
+uid=1003(lakshmi) gid=1000(abhiram) groups=1000(abhiram)
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$
