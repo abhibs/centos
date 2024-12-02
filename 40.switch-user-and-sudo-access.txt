@@ -67,3 +67,15 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# su - lakshmi
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ pwd
+/home/lakshmi
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ whoami
+lakshmi
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
