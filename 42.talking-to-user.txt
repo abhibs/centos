@@ -11,3 +11,12 @@ localhost.localdomain
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ su - lakshmi
+Password: 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ whoami
+lakshmi
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$
