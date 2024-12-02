@@ -104,3 +104,9 @@ Dec 02 17:14:58 localhost.localdomain systemd[1]: Started firewalld - dynamic fi
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# systemctl enable firewalld.service
+Created symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service → /usr/lib/systemd/system/firewalld.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/firewalld.service → /usr/lib/systemd/system/firewalld.service.
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
