@@ -69,3 +69,17 @@ Removed "/etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service".
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# systemctl status firewalld.service
+○ firewalld.service - firewalld - dynamic firewall daemon
+     Loaded: loaded (/usr/lib/systemd/system/firewalld.service; disabled; preset: enabled)
+     Active: inactive (dead)
+       Docs: man:firewalld(1)
+
+Dec 02 16:48:10 localhost systemd[1]: Starting firewalld - dynamic firewall daemon...
+Dec 02 16:48:11 localhost systemd[1]: Started firewalld - dynamic firewall daemon.
+Dec 02 17:04:38 localhost.localdomain systemd[1]: Stopping firewalld - dynamic firewall daemon...
+Dec 02 17:04:38 localhost.localdomain systemd[1]: firewalld.service: Deactivated successfully.
+Dec 02 17:04:38 localhost.localdomain systemd[1]: Stopped firewalld - dynamic firewall daemon.
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
