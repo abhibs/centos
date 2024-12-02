@@ -92,3 +92,45 @@ wtmp begins Fri Nov 15 13:33:54 2024
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ last | more
+abhiram  tty2         tty2             Mon Dec  2 09:56   still logged in
+abhiram  seat0        login screen     Mon Dec  2 09:56   still logged in
+reboot   system boot  5.14.0-529.el9.x Mon Dec  2 09:53   still running
+abhiram  tty2         tty2             Sat Nov 30 11:06 - down   (07:08)
+abhiram  seat0        login screen     Sat Nov 30 11:06 - down   (07:08)
+reboot   system boot  5.14.0-529.el9.x Sat Nov 30 11:05 - 18:14  (07:08)
+abhiram  tty2         tty2             Fri Nov 29 10:33 - down   (23:54)
+abhiram  seat0        login screen     Fri Nov 29 10:33 - down   (23:54)
+reboot   system boot  5.14.0-529.el9.x Fri Nov 29 10:27 - 10:27 (1+00:00)
+abhiram  tty2         tty2             Thu Nov 28 13:47 - down   (02:01)
+abhiram  seat0        login screen     Thu Nov 28 13:47 - down   (02:01)
+reboot   system boot  5.14.0-529.el9.x Thu Nov 28 13:45 - 15:49  (02:03)
+abhiram  tty2         tty2             Wed Nov 27 17:38 - down   (20:00)
+abhiram  seat0        login screen     Wed Nov 27 17:38 - down   (20:00)
+reboot   system boot  5.14.0-529.el9.x Wed Nov 27 17:19 - 13:39  (20:20)
+abhiram  tty2         tty2             Wed Nov 27 10:25 - down   (06:46)
+abhiram  seat0        login screen     Wed Nov 27 10:25 - down   (06:46)
+reboot   system boot  5.14.0-529.el9.x Wed Nov 27 10:23 - 17:11  (06:48)
+abhiram  tty2         tty2             Tue Nov 26 12:58 - down   (03:53)
+abhiram  seat0        login screen     Tue Nov 26 12:58 - down   (03:53)
+reboot   system boot  5.14.0-529.el9.x Tue Nov 26 12:56 - 16:51  (03:54)
+abhiram  tty2         tty2             Tue Nov 26 12:10 - down   (00:09)
+abhiram  seat0        login screen     Tue Nov 26 12:10 - down   (00:09)
+reboot   system boot  5.14.0-529.el9.x Tue Nov 26 12:07 - 12:19  (00:11)
+abhiram  tty2         tty2             Tue Nov 26 10:46 - down   (00:57)
+abhiram  seat0        login screen     Tue Nov 26 10:46 - down   (00:57)
+reboot   system boot  5.14.0-529.el9.x Tue Nov 26 10:43 - 11:44  (01:01)
+abhiram  tty2         tty2             Mon Nov 25 10:37 - down   (23:55)
+abhiram  seat0        login screen     Mon Nov 25 10:37 - down   (23:55)
+reboot   system boot  5.14.0-529.el9.x Mon Nov 25 10:35 - 10:33  (23:58)
+abhiram  tty2         tty2             Sat Nov 23 17:57 - down   (00:56)
+abhiram  seat0        login screen     Sat Nov 23 17:57 - down   (00:56)
+reboot   system boot  5.14.0-529.el9.x Sat Nov 23 17:53 - 18:53  (00:59)
+abhiram  tty2         tty2             Sat Nov 23 10:32 - down   (06:46)
+abhiram  seat0        login screen     Sat Nov 23 10:32 - down   (06:46)
+reboot   system boot  5.14.0-529.el9.x Sat Nov 23 10:27 - 17:19  (06:52)
+abhiram  tty2         tty2             Fri Nov 22 12:08 - down   (06:02)
+abhiram  seat0        login screen     Fri Nov 22 12:08 - down   (06:02)
+reboot   system boot  5.14.0-529.el9.x Fri Nov 22 11:07 - 18:10  (07:02)
+--More--
+
