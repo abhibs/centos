@@ -36,3 +36,13 @@ write: lakshmi is not logged in
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ su - lakshmi
+Password: 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
+[lakshmi@localhost ~]$ 
+[abhiram@localhost ~]$ write lakshmi
+write: lakshmi is not logged in
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
