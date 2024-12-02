@@ -639,4 +639,7 @@ To show all installed unit files use 'systemctl list-unit-files'.
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
-
+[root@localhost ~]# systemctl halt
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
