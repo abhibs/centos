@@ -218,3 +218,11 @@ wtmp
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ w
+ 13:15:39 up  3:21,  2 users,  load average: 0.09, 0.11, 0.09
+USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+abhiram  seat0     09:56    0.00s  0.00s  0.00s /usr/libexec/gdm-wayland-session --register-session gnome-session
+abhiram  tty2      09:56    3:21m  0.01s  0.01s /usr/libexec/gnome-session-binary
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
