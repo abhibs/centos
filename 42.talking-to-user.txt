@@ -27,3 +27,12 @@ wall: /dev/seat0: No such file or directory
 [lakshmi@localhost ~]$
 [lakshmi@localhost ~]$
 [lakshmi@localhost ~]$
+[abhiram@localhost ~]$ whoami
+abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ write lakshmi
+write: lakshmi is not logged in
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
