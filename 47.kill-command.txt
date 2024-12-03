@@ -83,3 +83,20 @@ Dec 03 11:04:56 localhost.localdomain systemd[1]: firewalld.service: Deactivated
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# systemctl status firewalld.service
+● firewalld.service - firewalld - dynamic firewall daemon
+     Loaded: loaded (/usr/lib/systemd/system/firewalld.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2024-12-03 11:12:41 IST; 2min 25s ago
+       Docs: man:firewalld(1)
+   Main PID: 7711 (firewalld)
+      Tasks: 2 (limit: 23011)
+     Memory: 22.9M
+        CPU: 214ms
+     CGroup: /system.slice/firewalld.service
+             └─7711 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+
+Dec 03 11:12:40 localhost.localdomain systemd[1]: Starting firewalld - dynamic firewall daemon...
+Dec 03 11:12:41 localhost.localdomain systemd[1]: Started firewalld - dynamic firewall daemon.
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
