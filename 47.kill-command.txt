@@ -16,3 +16,20 @@ kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ systemctl status firewalld.service
+● firewalld.service - firewalld - dynamic firewall daemon
+     Loaded: loaded (/usr/lib/systemd/system/firewalld.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2024-12-03 09:57:26 IST; 1h 0min ago
+       Docs: man:firewalld(1)
+   Main PID: 893 (firewalld)
+      Tasks: 2 (limit: 23011)
+     Memory: 45.6M
+        CPU: 285ms
+     CGroup: /system.slice/firewalld.service
+             └─893 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+
+Dec 03 09:57:24 localhost systemd[1]: Starting firewalld - dynamic firewall daemon...
+Dec 03 09:57:26 localhost systemd[1]: Started firewalld - dynamic firewall daemon.
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
