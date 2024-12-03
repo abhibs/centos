@@ -62,3 +62,64 @@ drwxr-xr-x.  2 root root         6 Aug 10  2021 cron.weekly
 [root@localhost etc]# 
 [root@localhost etc]# 
 [root@localhost etc]# 
+[root@localhost etc]# cd cron.daily
+[root@localhost cron.daily]# 
+[root@localhost cron.daily]# 
+[root@localhost cron.daily]# pwd
+/etc/cron.daily
+[root@localhost cron.daily]# 
+[root@localhost cron.daily]# 
+[root@localhost cron.daily]# ls -ltr
+total 28
+-rwxr-xr-x. 1 root root 25506 Nov 12 05:50 google-chrome
+[root@localhost cron.daily]# 
+[root@localhost cron.daily]# 
+[root@localhost cron.daily]# cd ..
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# cd cron.hourly
+[root@localhost cron.hourly]# 
+[root@localhost cron.hourly]# 
+[root@localhost cron.hourly]# pwd
+/etc/cron.hourly
+[root@localhost cron.hourly]# 
+[root@localhost cron.hourly]# 
+[root@localhost cron.hourly]# ls -ltr
+total 4
+-rwxr-xr-x. 1 root root 610 Sep 26 18:25 0anacron
+[root@localhost cron.hourly]# 
+[root@localhost cron.hourly]# 
+[root@localhost cron.hourly]# cd ..
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# cd cron.monthly
+[root@localhost cron.monthly]# 
+[root@localhost cron.monthly]# 
+[root@localhost cron.monthly]# pwd
+/etc/cron.monthly
+[root@localhost cron.monthly]# 
+[root@localhost cron.monthly]# 
+[root@localhost cron.monthly]# ls -ltr
+total 0
+[root@localhost cron.monthly]# 
+[root@localhost cron.monthly]# 
+[root@localhost cron.monthly]# cd ..
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# cd cron.weekly
+[root@localhost cron.weekly]# 
+[root@localhost cron.weekly]# 
+[root@localhost cron.weekly]# pwd
+/etc/cron.weekly
+[root@localhost cron.weekly]# 
+[root@localhost cron.weekly]# 
+[root@localhost cron.weekly]# ls -ltr
+total 0
+[root@localhost cron.weekly]# 
+[root@localhost cron.weekly]# 
+[root@localhost cron.weekly]# 
+[root@localhost cron.weekly]# cd ..
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
