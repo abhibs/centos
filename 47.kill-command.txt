@@ -100,3 +100,33 @@ Dec 03 11:12:41 localhost.localdomain systemd[1]: Started firewalld - dynamic fi
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# sleep 150
+
+[abhiram@localhost ~]$ ps -ef | grep sleep
+root        8229    7053  0 11:21 pts/1    00:00:00 sleep 150
+abhiram     8243    8195  0 11:22 pts/2    00:00:00 grep --color=auto sleep
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ ps -ef | grep sleep
+root        8229    7053  0 11:21 pts/1    00:00:00 sleep 150
+abhiram     8243    8195  0 11:22 pts/2    00:00:00 grep --color=auto sleep
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ kill -9 7053
+bash: kill: (7053) - Operation not permitted
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ su -
+Password: 
+[root@localhost ~]# kill -9 7053
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# sleep 150
+Killed
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+        
