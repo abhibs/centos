@@ -56,3 +56,44 @@ q(exit)
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+top - 10:16:33 up 19 min,  2 users,  load average: 0.13, 0.42, 0.60
+Tasks: 277 total,   1 running, 276 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  10456.6 total,   7932.8 free,   1876.0 used,    957.6 buff/cache
+MiB Swap:   4040.0 total,   4040.0 free,      0.0 used.   8580.6 avail Mem 
+
+   2137 abhiram   20   0 5959240 361072 131380 S   4.7   3.4   0:50.26 gnome-shell                                            
+   4187 abhiram   20   0  763900  51768  39556 S   0.3   0.5   0:01.55 gnome-terminal-                                        
+   2051 abhiram   20   0   24640  14360  10752 S   0.0   0.1   0:00.26 systemd                                                
+   2053 abhiram   20   0  175744   8156   1792 S   0.0   0.1   0:00.00 (sd-pam)                                               
+   2069 abhiram   20   0  452940   6824   5888 S   0.0   0.1   0:00.07 gnome-keyring-d                                        
+   2076 abhiram   20   0  374144   7520   5120 S   0.0   0.1   0:00.00 gdm-wayland-ses                                        
+   2078 abhiram   20   0   10696   4480   4096 S   0.0   0.0   0:00.01 dbus-broker-lau                                        
+   2083 abhiram   20   0    6968   4096   2304 S   0.0   0.0   0:00.23 dbus-broker                                            
+   2087 abhiram   20   0  513148  19232  15232 S   0.0   0.2   0:00.01 gnome-session-b                                        
+   2119 abhiram   20   0  303800   7492   4992 S   0.0   0.1   0:00.00 gnome-session-c                                        
+   2121 abhiram   20   0  734872  22200  15488 S   0.0   0.2   0:00.06 gnome-session-b                                        
+   2162 abhiram   20   0  452572   9436   6656 S   0.0   0.1   0:00.02 gvfsd                                                  
+   2167 abhiram   20   0  379916  10036   5376 S   0.0   0.1   0:00.00 gvfsd-fuse                                             
+   2169 abhiram   20   0  308584   7424   6656 S   0.0   0.1   0:00.00 at-spi-bus-laun                                        
+   2174 abhiram   20   0   10568   4096   3840 S   0.0   0.0   0:00.00 dbus-broker-lau                                        
+   2175 abhiram   20   0    5012   2432   2304 S   0.0   0.0   0:00.00 dbus-broker                                            
+   2201 abhiram   20   0  586512  21348  16384 S   0.0   0.2   0:00.02 gnome-shell-cal                                        
+   2202 abhiram   20   0  448088   7888   5504 S   0.0   0.1   0:00.00 xdg-permission-                                        
+   2210 abhiram    9 -11  327176  14640   8576 S   0.0   0.1   0:00.04 pipewire                                               
+   2211 abhiram    9 -11  545292  15872  12544 S   0.0   0.1   0:00.05 wireplumber                                            
+   2212 abhiram    9 -11  322972  15156   8032 S   0.0   0.1   0:00.03 pipewire-pulse                                         
+   2256 abhiram   20   0  527560  13848   8320 S   0.0   0.1   0:00.01 gvfs-udisks2-vo                                        
+   2261 abhiram   20   0  448208   8204   5760 S   0.0   0.1   0:00.00 gvfs-mtp-volume                                        
+   2265 abhiram   20   0  450036   9020   6272 S   0.0   0.1   0:00.00 gvfs-gphoto2-vo                                        
+   2274 abhiram   20   0  607544  30408  22144 S   0.0   0.3   0:00.04 evolution-sourc                                        
+   2275 abhiram   20   0  448284   7944   5504 S   0.0   0.1   0:00.00 gvfs-goa-volume                                        
+   2278 abhiram   20   0  746704  24700  17792 S   0.0   0.2   0:00.01 goa-daemon                                             
+   2288 abhiram   20   0  458724  11736   8320 S   0.0   0.1   0:00.07 goa-identity-se                                        
+   2297 abhiram   20   0 3202004  27936  20736 S   0.0   0.3   0:00.02 gjs                                                    
+   2300 abhiram   20   0  161724   7040   6400 S   0.0   0.1   0:00.00 at-spi2-registr                                        
+   2318 abhiram   20   0  522124  10368   5760 S   0.0   0.1   0:00.00 gsd-a11y-settin                                        
+   2319 abhiram   20   0  666924  30980  23044 S   0.0   0.3   0:00.06 gsd-color                                              
+   2322 abhiram   20   0  595296  20120  15744 S   0.0   0.2   0:00.01 gsd-datetime 
+
+q(exit)
