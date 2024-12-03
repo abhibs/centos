@@ -49,3 +49,21 @@ Abhiram B S Javalli Tudoor Thirthahalli
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$  
+[abhiram@localhost ~]$ at 1:00PM
+warning: commands will be executed using /bin/sh
+at> echo "Abhiram"
+ctrl + d
+at> <EOT>
+job 2 at Tue Dec  3 13:00:00 2024
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ at 1:15PM
+warning: commands will be executed using /bin/sh
+at> echo "Anjan B G"
+ctrl + d
+at> <EOT>
+job 3 at Tue Dec  3 13:15:00 2024
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
