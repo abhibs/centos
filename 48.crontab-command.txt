@@ -54,3 +54,8 @@ Abhiram B S Javalli Tudoor Thirthahalli
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ crontab -l
+58 11 * 12 * echo "Abhiram B S Javalli Tudoor Thirthahalli" > abhiram.txt
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
