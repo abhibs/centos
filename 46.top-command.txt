@@ -11,3 +11,48 @@ localhost.localdomain
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ top
+top - 10:11:59 up 14 min,  2 users,  load average: 0.27, 0.56, 0.69
+Tasks: 277 total,   1 running, 276 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.8 us,  0.7 sy,  0.0 ni, 97.4 id,  0.0 wa,  0.1 hi,  0.0 si,  0.0 st
+MiB Mem :  10456.6 total,   7901.8 free,   1907.3 used,    952.9 buff/cache
+MiB Swap:   4040.0 total,   4040.0 free,      0.0 used.   8549.3 avail Mem 
+
+2137 abhiram   20   0 5956420 354908 131248 S  11.0   3.3   0:22.75 gnome-shell                                            
+   3356 abhiram   20   0 1158.0g 238232 110260 S   3.7   2.2   0:15.30 code                                                   
+   3466 abhiram   20   0   32.7g 102836  82688 S   1.7   1.0   0:02.48 code                                                   
+   2846 abhiram   20   0 1158.1g 204372 131304 S   1.0   1.9   0:03.91 code                                                   
+     71 root      20   0       0      0      0 I   0.3   0.0   0:00.40 kworker/u32:2-events_unbound                           
+   3014 abhiram   20   0  195696  60760  48320 S   0.3   0.6   0:00.87 Xwayland                                               
+   4187 abhiram   20   0  764156  51672  39556 S   0.3   0.5   0:00.53 gnome-terminal-                                        
+   4722 abhiram   20   0  226060   4224   3328 R   0.3   0.0   0:00.07 top                                                    
+      1 root      20   0  175092  17328  10648 S   0.0   0.2   0:00.95 systemd                                                
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd                                               
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_workqueue_                                        
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-rcu_g                                        
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-sync_                                        
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-slub_                                        
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-netns                                        
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri                            
+     11 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mm_pe                                        
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_kthre                                        
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_rude_                                        
+     15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_trace                                        
+     16 root      20   0       0      0      0 S   0.0   0.0   0:00.01 ksoftirqd/0                         ^C                 
+[abhiram@localhost ~]$ 0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_trace                                        
+     16 root      20   0       0      0      0 S   0.0   0.0   0:00.01 ksoftirqd/0                                            
+     18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp_par_gp_                                        
+     19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp_gp_kthr                                        
+     20 root      rt   0       0      0      0 S   0.0   0.0   0:00.00 migration/0                                            
+     21 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0                                          
+     22 root      20   0       0      0      0 I   0.0   0.0   0:00.17 kworker/0:1-ata_sff                                    
+     23 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0                                                
+     24 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/2                                                
+     25 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/2                                          
+     26 root      rt   0       0      0      0 S   0.0   0.0   0:00.05 migration/2                                            
+     27 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ksoftirqd/2                                            
+
+q(exit)
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
