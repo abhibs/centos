@@ -16,3 +16,12 @@ Tuesday 03 December 2024 12:25:20 PM IST
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ at 12:30PM
+warning: commands will be executed using /bin/sh
+at> echo "Abhiram B S Javalli Tudoor Thirthahalli" > abhiram.txt
+ctrl + d (exit)
+at> <EOT>
+job 1 at Tue Dec  3 12:30:00 2024
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
