@@ -87,3 +87,21 @@ job 3 at Tue Dec  3 13:15:00 2024
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ systemctl status atd.service
+● atd.service - Deferred execution scheduler
+     Loaded: loaded (/usr/lib/systemd/system/atd.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2024-12-03 13:19:53 IST; 8min ago
+       Docs: man:atd(8)
+   Main PID: 999 (atd)
+      Tasks: 1 (limit: 23011)
+     Memory: 1.2M
+        CPU: 17ms
+     CGroup: /system.slice/atd.service
+             └─999 /usr/sbin/atd -f
+
+Dec 03 13:19:53 localhost.localdomain systemd[1]: Started Deferred execution scheduler.
+Dec 03 13:19:53 localhost.localdomain atd[1013]: Starting job 3 (a0000301b8c751) for user 'abhiram' (1000)
+Dec 03 13:19:53 localhost.localdomain atd[1012]: Starting job 2 (a0000201b8c742) for user 'abhiram' (1000)
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
