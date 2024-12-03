@@ -49,3 +49,8 @@ drwxr-xr-x. 3 abhiram abhiram 4096 Nov 25 12:28 Downloads
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ cat abhiram.txt 
+Abhiram B S Javalli Tudoor Thirthahalli
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
