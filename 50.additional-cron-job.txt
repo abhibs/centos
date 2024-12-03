@@ -24,3 +24,41 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# cd /etc
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# ls -l cron.*
+-rw-r--r--. 1 root root  0 Sep 26 18:25 cron.deny
+
+cron.d:
+total 4
+-rw-r--r--. 1 root root 128 Sep 26 18:25 0hourly
+
+cron.daily:
+total 28
+-rwxr-xr-x. 1 root root 25506 Nov 12 05:50 google-chrome
+
+cron.hourly:
+total 4
+-rwxr-xr-x. 1 root root 610 Sep 26 18:25 0anacron
+
+cron.monthly:
+total 0
+
+cron.weekly:
+total 0
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# ls -l | grep cron
+-rw-r--r--.  1 root root       541 Sep 26 18:25 anacrontab
+drwxr-xr-x.  2 root root        21 Nov 15 13:23 cron.d
+drwxr-xr-x.  2 root root        27 Nov 15 13:50 cron.daily
+-rw-r--r--.  1 root root         0 Sep 26 18:25 cron.deny
+drwxr-xr-x.  2 root root        22 Aug 10  2021 cron.hourly
+drwxr-xr-x.  2 root root         6 Aug 10  2021 cron.monthly
+-rw-r--r--.  1 root root       451 Aug 10  2021 crontab
+drwxr-xr-x.  2 root root         6 Aug 10  2021 cron.weekly
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
