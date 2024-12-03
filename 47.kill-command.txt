@@ -79,3 +79,7 @@ Dec 03 11:04:56 localhost.localdomain systemd[1]: firewalld.service: Deactivated
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# systemctl start firewalld.service
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
