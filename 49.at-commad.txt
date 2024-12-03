@@ -25,3 +25,8 @@ job 1 at Tue Dec  3 12:30:00 2024
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
 [abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ atq
+1	Tue Dec  3 12:30:00 2024 a abhiram
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
+[abhiram@localhost ~]$ 
