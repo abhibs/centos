@@ -59,3 +59,7 @@ root
 [root@localhost ~]# 
 [root@localhost ~]# 
 [root@localhost ~]# 
+[root@localhost ~]# kill 893
+[root@localhost ~]# 
+[root@localhost ~]# 
+[root@localhost ~]# 
